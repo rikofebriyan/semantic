@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rikofebriyan/ontologies/2024/10/untitled-ontology-4/"
+     xml:base="http://www.semanticweb.org/rikofebriyan/ontologies/2024/10/untitled-ontology-4/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial">
+        <rdfs:comment>A tutorial ontology for the Pizza Domain</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasBase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasBase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasIngredient"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isBaseOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasIngredient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasIngredient">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isIngredientOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasIngredient"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isToppingOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isBaseOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isBaseOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isIngredientOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isIngredientOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isIngredientOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isToppingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isToppingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#isIngredientOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaHotPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaHotPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#JalapenoPepperTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperoniTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A pizza that only has Mozzarella, Tomato, and Pepperoni toppings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperoniTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A pizza that only has Mozzarella, Tomato, and Pepperoni toppings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AnchovyTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AnchovyTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CaperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CaperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheesyPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheesyPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#DeepPanBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#DeepPanBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ThinAndCrispyBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#GreenPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#GreenPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#HamTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#HamTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#JalapenoPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#JalapenoPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MargharitaPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MargharitaPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A pizza that only has Mozzarella and Tomato toppings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ParmesanTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MushroomTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MushroomTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#OliveTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#OliveTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ParmesanTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ParmesanTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperoniTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperoniTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasBase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PrawnTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PrawnTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#RedPepperTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#RedPepperTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SalamiTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SalamiTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SohoPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SohoPizza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#OliveTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ParmesanTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MozzarellaTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#OliveTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ParmesanTopping"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A pizza that only has Mozzarella and Tomato and Parmessan and Olive toppings</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SpicyBeefTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SpicyBeefTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ThinAndCrispyBase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#ThinAndCrispyBase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Toma_tTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Toma_tTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TunaTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TunaTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetarianPizza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetarianPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#hasTopping"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaHotPizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AmericanaPizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MargharitaPizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SohoPizza"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#AnchovyTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PrawnTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TunaTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CaperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MushroomTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#OliveTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#TomatoTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#CheeseTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#MeatTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SeafoodTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Toma_tTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#VegetableTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#GreenPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#JalapenoPepperTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#RedPepperTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#HamTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PepperoniTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SalamiTopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#SpicyBeefTopping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#Pizza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaBase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/michaeldebellis/ontologies/2020/PizzaTutorial#PizzaTopping"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
