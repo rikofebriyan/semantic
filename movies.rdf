@@ -1,0 +1,2346 @@
+@prefix schema1: <http://schema.org/> .
+
+<http://example.org/movie/#Horror> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Annabelle_Dexter-Jones_as_Molly>,
+        <http://example.org/person/Balthazar_Getty_as_Mr._Cox>,
+        <http://example.org/person/Chloë_Sevigny_as_Alex_Cox>,
+        <http://example.org/person/Jessica_Blank_as_Mom>,
+        <http://example.org/person/Lydia_Hearst_as_Lisa>,
+        <http://example.org/person/Natasha_Lyonne_as_Sam's_Mom>,
+        <http://example.org/person/Tara_Subkoff_as_Tatiana_(voice)>,
+        <http://example.org/person/Taryn_Manning_as_Alex's_12-Step_Friend>,
+        <http://example.org/person/Timothy_Hutton_as_Dr._White> ;
+    schema1:description "Inspired by actual events, a group of 12 year old girls face a night of horror when the compulsive addiction of an online social media game turns a moment of cyber bullying into a night of insanity." ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/Horror>,
+        <http://example.org/genre/Mystery>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "#Horror" ;
+    schema1:producer <http://example.org/producer/AST_Studios,_Lowland_Pictures> .
+
+<http://example.org/movie/(500)_Days_of_Summer> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alejandro_Estornel_as_Dancer>,
+        <http://example.org/person/Charles_Walker_as_Millie's_New_Husband>,
+        <http://example.org/person/Chloë_Grace_Moretz_as_Rachel_Hansen>,
+        <http://example.org/person/Clark_Gregg_as_Vance>,
+        <http://example.org/person/Darryl_Alan_Reed_as_Bus_Driver>,
+        <http://example.org/person/Darryl_Sivad_as_Usher>,
+        <http://example.org/person/Geoffrey_Arend_as_McKenzie>,
+        <http://example.org/person/Gregory_Thompson_as_Minister>,
+        <http://example.org/person/Ian_Reed_Kesler_as_Douche>,
+        <http://example.org/person/Joseph_Gordon-Levitt_as_Tom_Hansen>,
+        <http://example.org/person/Maile_Flanagan_as_Rhoda>,
+        <http://example.org/person/Matthew_Gray_Gubler_as_Paul>,
+        <http://example.org/person/Minka_Kelly_as_Autumn_-_Girl_at_interview>,
+        <http://example.org/person/Nadine_Ellis_as_Dancer>,
+        <http://example.org/person/Natalie_Boren_as_Another_Partygoer>,
+        <http://example.org/person/Nicole_Vicius_as_Partygoer>,
+        <http://example.org/person/Patricia_Belcher_as_Millie>,
+        <http://example.org/person/Rachel_Boston_as_Alison>,
+        <http://example.org/person/Rebecca_Lin_as_Dancer>,
+        <http://example.org/person/Sybil_Azur_as_Dancer>,
+        <http://example.org/person/Valente_Rodriguez_as_Employee_#1>,
+        <http://example.org/person/Yvette_Nicole_Brown_as_New_Secretary>,
+        <http://example.org/person/Zooey_Deschanel_as_Summer_Finn> ;
+    schema1:description "Tom (Joseph Gordon-Levitt), greeting-card writer and hopeless romantic, is caught completely off-guard when his girlfriend, Summer (Zooey Deschanel), suddenly dumps him. He reflects on their 500 days together to try to figure out where their love affair went sour, and in doing so, Tom rediscovers his true passions in life." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "(500) Days of Summer" ;
+    schema1:producer <http://example.org/producer/Fox_Searchlight_Pictures,_Watermark,_Dune_Entertainment_III> .
+
+<http://example.org/movie/102_Dalmatians> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alice_Evans_as_Chloe_Simon>,
+        <http://example.org/person/Glenn_Close_as_Cruella_de_Vil>,
+        <http://example.org/person/Gérard_Depardieu_as_Jean_Pierre_Le_Pelt>,
+        <http://example.org/person/Ioan_Gruffudd_as_Kevin_Shepherd>,
+        <http://example.org/person/Tim_McInnerny_as_Alonzo> ;
+    schema1:description "Get ready for a howling good time as an all new assortment of irresistible animal heroes are unleashed in this great family tail! In an unlikely alliance, the outrageous Waddlesworth... a parrot who thinks he's a Rottweiler... teams up with Oddball... an un-marked Dalmation puppy eager to earn her spots! Together they embark on a laugh-packed quest to outwit the ever-scheming Cruella De Vil" ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Family> ;
+    schema1:name "102 Dalmatians" ;
+    schema1:producer <http://example.org/producer/Walt_Disney_Pictures,_Cruella_Productions> .
+
+<http://example.org/movie/10_Cloverfield_Lane> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bradley_Cooper_as_Ben_(voice)>,
+        <http://example.org/person/Cindy_Hogan_as_Neighbor_Woman>,
+        <http://example.org/person/Douglas_M._Griffin_as_Driver>,
+        <http://example.org/person/John_Gallagher_Jr._as_Emmett_DeWitt>,
+        <http://example.org/person/John_Goodman_as_Howard_Stambler>,
+        <http://example.org/person/Mary_Elizabeth_Winstead_as_Michelle>,
+        <http://example.org/person/Mat_Vairo_as_Jeremy>,
+        <http://example.org/person/Maya_Erskine_as_Darcy>,
+        <http://example.org/person/Ryan_Martin_Dwyer_as_Extra_Licoreria>,
+        <http://example.org/person/Suzanne_Cryer_as_Leslie> ;
+    schema1:description "After a car accident, Michelle awakens to find herself in a mysterious bunker with two men named Howard and Emmett. Howard offers her a pair of crutches to help her remain mobile with her leg injury sustained from the car crash and tells her to \"get good on those\" before leaving the bunker. She has been given the information that there has been an alien attack and the outside world is poisoned. However, Howard and Emmett's intentions soon become questionable and Michelle is faced with a question: Is it better in here or out there?" ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/Science_Fiction>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "10 Cloverfield Lane" ;
+    schema1:producer <http://example.org/producer/Paramount_Pictures,_Bad_Robot,_Spectrum_Effects> .
+
+<http://example.org/movie/10_Days_in_a_Madhouse> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alexandra_Callas_as_Miss_Grupe>,
+        <http://example.org/person/Andi_Morrow_as_Leona_Fox>,
+        <http://example.org/person/Bob_Olin_as_John_Cockerill>,
+        <http://example.org/person/Caroline_Barry_as_Nellie_Bly>,
+        <http://example.org/person/Christopher_Lambert_as_Dr._Dent>,
+        <http://example.org/person/Corrina_Cornforth_as_Urena_Little_Page>,
+        <http://example.org/person/Darlene_Sellers_as_Matilda>,
+        <http://example.org/person/Darrell_Salk_as_Judge_Duffy>,
+        <http://example.org/person/David_Lee_Garver_as_Dr._Kinier>,
+        <http://example.org/person/Everette_Scott_Ortiz_as_Dr._Field>,
+        <http://example.org/person/Gwyn_LaRee_as_Mary>,
+        <http://example.org/person/Jessa_Campbell_as_Tillie_Maynard>,
+        <http://example.org/person/Julia_Chantrey_as_Anne_Neville>,
+        <http://example.org/person/Kaitlin_Otoole_as_Margaret_McCartney>,
+        <http://example.org/person/Katie_Singleton_as_Mrs._Caine>,
+        <http://example.org/person/Kelly_LeBrock_as_Miss_Grant>,
+        <http://example.org/person/Michael_Swanson_as_Vernon_M._Davis>,
+        <http://example.org/person/Monique_Robbins_as_Miss_Grady>,
+        <http://example.org/person/Natalia_Davidenko_as_Mrs._Schanz>,
+        <http://example.org/person/Saskia_Larsen_as_Arena_Pugh>,
+        <http://example.org/person/Susan_Goforth_as_Mrs._Stanard>,
+        <http://example.org/person/Talya_Mar_as_Bridget_McGuinness> ;
+    schema1:description "Nellie Bly, a 23 year-old reporter for Joseph Pulitzer, goes undercover in the notorious Blackwell's Island women's insane asylum in order to expose corruption, abuse and murder." ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "10 Days in a Madhouse" .
+
+<http://example.org/movie/10_Things_I_Hate_About_You> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aaron_Therol_as_Detention_Student>,
+        <http://example.org/person/Aidan_Kennedy_as_Laughing_Loser>,
+        <http://example.org/person/Alice_Evans_as_Perky_Girl>,
+        <http://example.org/person/Allison_Janney_as_Ms._Perky>,
+        <http://example.org/person/Andrew_Keegan_as_Joey_Donner>,
+        <http://example.org/person/Ari_Karczag_as_Kissing_Guy>,
+        <http://example.org/person/Ben_Laurance_as_Wimpy_Loser>,
+        <http://example.org/person/Bianca_Kajlich_as_Coffee_Girl>,
+        <http://example.org/person/Brian_Hood_as_Clem>,
+        <http://example.org/person/Brian_Mashburn_as_Save_Ferris_Singer>,
+        <http://example.org/person/Cameron_Fraser_as_Trevor>,
+        <http://example.org/person/Carlos_Lacámara_as_Bartender>,
+        <http://example.org/person/Daryl_Mitchell_as_Mr._Morgan>,
+        <http://example.org/person/David_Krumholtz_as_Michael_Eckman>,
+        <http://example.org/person/David_Leisure_as_Mr._Chapin>,
+        <http://example.org/person/Demegio_Kimbrough_as_Coffee_Kid>,
+        <http://example.org/person/Dennis_Mosley_as_Cohort>,
+        <http://example.org/person/Eric_Riedmann_as_Audio_Visual_Guy>,
+        <http://example.org/person/Gabrielle_Union_as_Chastity>,
+        <http://example.org/person/Greg_Jackson_as_Scruvy>,
+        <http://example.org/person/Heath_Ledger_as_Patrick_Verona>,
+        <http://example.org/person/Heather_Taylor_as_Drunken_Girl>,
+        <http://example.org/person/J.R._Johnson_as_Mba_Guy_at_Party>,
+        <http://example.org/person/Jelani_Quinn_as_Crying_Loser>,
+        <http://example.org/person/Jesper_Inglis_as_Buckaroo_Bartender>,
+        <http://example.org/person/Jesse_Dyer_as_Screaming_Loser>,
+        <http://example.org/person/Joseph_Gordon-Levitt_as_Cameron_James>,
+        <http://example.org/person/Joshua_Thorpe_as_Jock>,
+        <http://example.org/person/Julia_Stiles_as_Katarina_Kat_Stratford>,
+        <http://example.org/person/Kay_Hanley_as_Letters_To_Cleo_Singer>,
+        <http://example.org/person/Kyle_Cease_as_Bogie_Lowenstien>,
+        <http://example.org/person/Larisa_Oleynik_as_Bianca_Stratford>,
+        <http://example.org/person/Larry_Miller_as_Walter_Stratford>,
+        <http://example.org/person/Laura_Kenny_as_Judith>,
+        <http://example.org/person/Michael_Eisenstein_as_Letters_To_Cleo_Singer>,
+        <http://example.org/person/Monique_Powell_as_Save_Ferris_Singer>,
+        <http://example.org/person/Nick_Brown_as_Biker>,
+        <http://example.org/person/Nick_Vukelic_as_Drugged_Out_Loser>,
+        <http://example.org/person/Quinn_Maixner_as_Beautiful_Jock>,
+        <http://example.org/person/Susan_May_Pratt_as_Mandella>,
+        <http://example.org/person/Terence_Heuston_as_Derek>,
+        <http://example.org/person/Todd_Butler_as_Coffee_Kid>,
+        <http://example.org/person/Travis_Muller_as_Cowboy>,
+        <http://example.org/person/Wendy_Gottlieb_as_Heather> ;
+    schema1:description "Bianca, a tenth grader, has never gone on a date, but she isn't allowed to go out with boys until her older sister Kat gets a boyfriend. The problem is, Kat rubs nearly everyone the wrong way. But Bianca and the guy she has her eye on, Joey, are eager, so Joey fixes Kat up with Patrick, a new kid in town just bitter enough for Kat." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "10 Things I Hate About You" ;
+    schema1:producer <http://example.org/producer/Mad_Chance,_Jaret_Entertainment,_Touchstone_Pictures> .
+
+<http://example.org/movie/10th_&_Wolf> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Billy_Gallo_as_Provenzano>,
+        <http://example.org/person/Brad_Renfro_as_Vincent>,
+        <http://example.org/person/Brian_Dennehy_as_Agent_Horvath>,
+        <http://example.org/person/Dash_Mihok_as_Junior>,
+        <http://example.org/person/Dennis_Hopper_as_Matty_Matello>,
+        <http://example.org/person/Giovanni_Ribisi_as_Joey>,
+        <http://example.org/person/James_Marsden_as_Tommy>,
+        <http://example.org/person/John_Capodice_as_Sipio>,
+        <http://example.org/person/Ken_Garito_as_Willy>,
+        <http://example.org/person/Leo_Rossi_as_Agent_Thornton>,
+        <http://example.org/person/Piper_Perabo_as_Brandy>,
+        <http://example.org/person/Tony_Luke_Jr._as_Rocco>,
+        <http://example.org/person/Val_Kilmer_as_Murtha> ;
+    schema1:description "A former street tough returns to his Philadelphia home after a stint in the military. Back on his home turf, he once again finds himself tangling with the mob boss who was instrumental in his going off to be a soldier." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Mystery>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "10th & Wolf" ;
+    schema1:producer <http://example.org/producer/Thinkfilm> .
+
+<http://example.org/movie/11:14> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Barbara_Hershey_as_Norma>,
+        <http://example.org/person/Ben_Foster_as_Eddie>,
+        <http://example.org/person/Blake_Heron_as_Aaron>,
+        <http://example.org/person/Clark_Gregg_as_Officer_Hannagan>,
+        <http://example.org/person/Colin_Hanks_as_Mark>,
+        <http://example.org/person/Henry_Thomas_as_Jack>,
+        <http://example.org/person/Hilary_Swank_as_Buzzy>,
+        <http://example.org/person/Jason_Segel_as_Leon_(Paramedic_#1)>,
+        <http://example.org/person/Patrick_Swayze_as_Frank>,
+        <http://example.org/person/Rachael_Leigh_Cook_as_Cheri>,
+        <http://example.org/person/Rick_Gomez_as_Kevin_(Paramedic_#2)>,
+        <http://example.org/person/Shawn_Hatosy_as_Duffy>,
+        <http://example.org/person/Stark_Sands_as_Tim> ;
+    schema1:description "Tells the seemingly random yet vitally connected story of a set of incidents that all converge one evening at 11:14pm. The story follows the chain of events of five different characters and five different storylines that all converge to tell the story of murder and deceit." ;
+    schema1:genre <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "11:14" ;
+    schema1:producer <http://example.org/producer/Firm_Films,_Media_8_Entertainment,_MDP_Worldwide> .
+
+<http://example.org/movie/127_Hours> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Amber_Tamblyn_as_Megan_McBride>,
+        <http://example.org/person/Aron_Ralston_as_Himself_(uncredited)>,
+        <http://example.org/person/Bailee_Michelle_Johnson_as_Sonja_Age_10>,
+        <http://example.org/person/Brad_Johnson_as_Friend_of_Aaron_(uncredited)>,
+        <http://example.org/person/Clémence_Poésy_as_Rana>,
+        <http://example.org/person/Darin_Southam_as_Zach>,
+        <http://example.org/person/Elizabeth_Hales_as_Patron_(uncredited)>,
+        <http://example.org/person/Fenton_Quinn_as_Blue_John>,
+        <http://example.org/person/James_Franco_as_Aron_Ralston>,
+        <http://example.org/person/John_Lawrence_as_Brian>,
+        <http://example.org/person/Johnny_Ahn_as_Basketball_Fan_(uncredited)>,
+        <http://example.org/person/Kate_Burton_as_Donna_Ralston>,
+        <http://example.org/person/Kate_Mara_as_Kristi_Moore>,
+        <http://example.org/person/Kelsie_Mathews_as_Basketball_Fan_(uncredited)>,
+        <http://example.org/person/Koleman_Stinger_as_Aaron_Age_5>,
+        <http://example.org/person/Kyle_Paul_as_Best_Man_(uncredited)>,
+        <http://example.org/person/Lizzy_Caplan_as_Sonja_Ralston>,
+        <http://example.org/person/Lonzo_Liggins_as_Reporter_(uncredited)>,
+        <http://example.org/person/Norman_Lehnert_as_Dan>,
+        <http://example.org/person/Parker_Hadley_as_Aaron_age_15>,
+        <http://example.org/person/Peter_Joshua_Hull_as_Boy_on_Sofa>,
+        <http://example.org/person/Pieter_Jan_Brugge_as_Eric_Meijer>,
+        <http://example.org/person/Priscilla_Poland_as_Bridesmaid_(uncredited)>,
+        <http://example.org/person/Rebecca_C._Olson_as_Monique_Meijer>,
+        <http://example.org/person/Robert_Bear_as_Aron's_Friend_(uncredited)>,
+        <http://example.org/person/Samantha_Marsden_as_Media_person_/_Basketball_Game_Fan_(uncredited)>,
+        <http://example.org/person/Sean_Bott_as_Aaron's_Friend>,
+        <http://example.org/person/Terry_S._Mercer_as_Helicopter_Pilot>,
+        <http://example.org/person/Treat_Williams_as_Larry_Ralston> ;
+    schema1:description "The true story of mountain climber Aron Ralston's remarkable adventure to save himself after a fallen boulder crashes on his arm and traps him in an isolated canyon in Utah." ;
+    schema1:genre <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "127 Hours" ;
+    schema1:producer <http://example.org/producer/Fox_Searchlight_Pictures,_Warner_Bros.,_Cloud_Eight_Films,_Pathé,_Film4,_Everest_Entertainment,_HandMade_Films> .
+
+<http://example.org/movie/12_Angry_Men> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Billy_Nelson_as_Court_Clerk_(uncredited)>,
+        <http://example.org/person/E.G._Marshall_as_Juror_4>,
+        <http://example.org/person/Ed_Begley_as_Juror_10>,
+        <http://example.org/person/Edward_Binns_as_Juror_6>,
+        <http://example.org/person/George_Voskovec_as_Juror_11>,
+        <http://example.org/person/Henry_Fonda_as_Juror_8>,
+        <http://example.org/person/Jack_Klugman_as_Juror_5>,
+        <http://example.org/person/Jack_Warden_as_Juror_7>,
+        <http://example.org/person/James_Kelly_as_Guard_(uncredited)>,
+        <http://example.org/person/John_Fiedler_as_Juror_2>,
+        <http://example.org/person/John_Savoca_as_The_Accused_(uncredited)>,
+        <http://example.org/person/Joseph_Sweeney_as_Juror_9>,
+        <http://example.org/person/Lee_J._Cobb_as_Juror_3>,
+        <http://example.org/person/Martin_Balsam_as_Juror_1>,
+        <http://example.org/person/Robert_Webber_as_Juror_12>,
+        <http://example.org/person/Rudy_Bond_as_Judge_(uncredited)>,
+        <http://example.org/person/Walter_Stocker_as_Man_Waiting_for_Elevator_(uncredited)> ;
+    schema1:description "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other." ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "12 Angry Men" ;
+    schema1:producer <http://example.org/producer/United_Artists,_Orion-Nova_Productions> .
+
+<http://example.org/movie/12_Rounds> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aidan_Gillen_as_Miles_Jackson>,
+        <http://example.org/person/Amad_Jackson_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Ashley_Scott_as_Molly_Porter>,
+        <http://example.org/person/Barbara_Harris_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Bill_Martin_Williams_as_Ferry_Patrolman>,
+        <http://example.org/person/Billy_Slaughter_as_Technician>,
+        <http://example.org/person/Brandi_Coleman_as_Pedestrian>,
+        <http://example.org/person/Brian_J._White_as_Det._Hank_Carver>,
+        <http://example.org/person/Brian_Stanton_as_FBI_Agent_Gator>,
+        <http://example.org/person/Bryan_Johnson_as_Sleeping_Streetcar_Passenger>,
+        <http://example.org/person/Catherine_Cavadini_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Cheryl_Tyre_Smith_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Danie_Coleman_as_Hot_Tub_Woman>,
+        <http://example.org/person/Daniel_Mora_as_Additional_Voices_(voice)>,
+        <http://example.org/person/David_Frye_as_Officer_Phelps>,
+        <http://example.org/person/David_J._Randolph_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Doug_Burch_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Douglas_M._Griffin_as_Peter_Gerard>,
+        <http://example.org/person/George_as_Shortie_the_Pug>,
+        <http://example.org/person/Gonzalo_Menendez_as_Special_Agent_Ray_Santiago>,
+        <http://example.org/person/Greg_Finley_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Hunter_Burke_as_Hot_Tub_Man_/_Hotel_Employee>,
+        <http://example.org/person/J._Omar_Castro_as_FBI_Agent>,
+        <http://example.org/person/Jada_K._Cox_as_Jesse_Lou_Mackie>,
+        <http://example.org/person/Jason_Pace_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Jeff_Fischer_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Joel_Swetow_as_Additional_Voices_(voice)>,
+        <http://example.org/person/John_Cena_as_Det._Danny_Fisher>,
+        <http://example.org/person/John_DeMita_as_Additional_Voices_(voice)>,
+        <http://example.org/person/John_Wilmot_as_Elderly_Man>,
+        <http://example.org/person/Judi_M._Durand_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Kim_Collins_as_Phil_the_Plumber>,
+        <http://example.org/person/Kimberly_Bailey_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Kyle_Russell_Clements_as_Dave_Fisher>,
+        <http://example.org/person/Lara_Grice_as_Cell_Store_Owner>,
+        <http://example.org/person/Levi_Nuñez_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Louis_Herthum_as_BEP_Employee>,
+        <http://example.org/person/Luke_Albright_as_Johnny_Jenkins>,
+        <http://example.org/person/Luukas_Harlin_as_Streetcar_Kid>,
+        <http://example.org/person/Michael_Ralph_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Mikki_Val_as_Nurse>,
+        <http://example.org/person/Nick_Gomez_as_Samuel>,
+        <http://example.org/person/Noreen_Reardon_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Paige_Pollack_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Pauline_Boudreaux_as_Medic>,
+        <http://example.org/person/Peggy_Flood_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Peter_'Navy'_Tuiasosopo_as_Willie_Dumaine>,
+        <http://example.org/person/Richard_Penn_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Robert_Pralgo_as_Camouflaged_Agent>,
+        <http://example.org/person/Rosalind_Rubin_as_FBI_Agent_Sheila>,
+        <http://example.org/person/Roy_Huang_as_Sharpshooter>,
+        <http://example.org/person/Ruth_Zalduondo_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Steve_Harris_as_Special_Agent_George_Aiken>,
+        <http://example.org/person/Tanya_Vidal_Dublin_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Taylor_Cole_as_Erica_Kessen>,
+        <http://example.org/person/Terence_Mathews_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Travis_Davis_as_Anthony_Deluso>,
+        <http://example.org/person/Vernon_Scott_as_Additional_Voices_(voice)>,
+        <http://example.org/person/Vincent_Flood_as_Detective_Chuck_Jansen>,
+        <http://example.org/person/Wally_Crowder_as_Streetcar_Conductor>,
+        <http://example.org/person/Wayne_Ferrara_as_Battallion_Commander> ;
+    schema1:description "When New Orleans cop Danny Fisher prevents a brilliant thief from successfully carrying out his latest heist, the thief's girlfriend is accidentally killed. Hungry for revenge, the criminal mastermind breaks out of prison and kidnaps Danny's fiancee. To save her, Danny must successfully navigate his way through an elaborate series of tasks and puzzles, or else watch the love of his life die." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "12 Rounds" ;
+    schema1:producer <http://example.org/producer/The_Mark_Gordon_Company,_Fox_Atomic,_20th_Century_Fox_Home_Entertainment,_WWE_Studios,_Midnight_Sun_Pictures> .
+
+<http://example.org/movie/12_Years_a_Slave> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adepero_Oduye_as_Eliza>,
+        <http://example.org/person/Alfre_Woodard_as_Mistress_Shaw>,
+        <http://example.org/person/Andre_Robinson_as_Slave_Boy_(uncredited)>,
+        <http://example.org/person/Andre_Shanks_as_Victim_1>,
+        <http://example.org/person/Andy_Dylan_as_Treach>,
+        <http://example.org/person/Anwan_Glover_as_Cape>,
+        <http://example.org/person/Ashley_Dyke_as_Anna>,
+        <http://example.org/person/Austin_Purnell_as_Bob>,
+        <http://example.org/person/Benedict_Cumberbatch_as_William_Ford>,
+        <http://example.org/person/Bill_Camp_as_Radburn>,
+        <http://example.org/person/Blake_Burt_as_Upper_Class_Pedestrian_(uncredited)>,
+        <http://example.org/person/Bob_Walker_as_Abolitionist_Landowner_(uncredited)>,
+        <http://example.org/person/Brad_Pitt_as_Samuel_Bass>,
+        <http://example.org/person/Bryan_Batt_as_Judge_Turner>,
+        <http://example.org/person/Cameron_Zeigler_as_Alonzo_Northup>,
+        <http://example.org/person/Caroline_Grace_Williamson_as_Ford_Daughter_(uncredited)>,
+        <http://example.org/person/Carroll_Burt_as_Lower_Class_Pedestrian_(uncredited)>,
+        <http://example.org/person/Chaz_Smith_as_Cigar_Smoker_(uncredited)>,
+        <http://example.org/person/Chiwetel_Ejiofor_as_Solomon_Northup>,
+        <http://example.org/person/Chris_Chalk_as_Clemens>,
+        <http://example.org/person/Christopher_Berry_as_Burch>,
+        <http://example.org/person/Corrina_Roshea_as_Slave_Buyer_(uncredited)>,
+        <http://example.org/person/Craig_Tate_as_John>,
+        <http://example.org/person/Cynthia_LeBlanc_as_Washington_D.C._Pedestrian_(uncredited)>,
+        <http://example.org/person/Deneen_Tyler_as_Phebe>,
+        <http://example.org/person/Devin_Maurice_Evans_as_Slave_Spiritual_Singer_2>,
+        <http://example.org/person/Devyn_A._Tyler_as_Margaret_Northup_(adult)>,
+        <http://example.org/person/Dickie_Gravois_as_Overseer>,
+        <http://example.org/person/Douglas_M._Griffin_as_Sailor>,
+        <http://example.org/person/Dwight_Henry_as_Uncle_Abram>,
+        <http://example.org/person/Edward_J._Clare_as_Restaurant_Patron_(uncredited)>,
+        <http://example.org/person/Elton_LeBlanc_as_Hotel_Dining_Patron_(uncredited)>,
+        <http://example.org/person/Emily_D._Haley_as_Tea_Seller_(uncredited)>,
+        <http://example.org/person/Erin_Rementer_as_Ballroom_Dancer_(uncredited)>,
+        <http://example.org/person/Garret_Dillahunt_as_Armsby>,
+        <http://example.org/person/Gerard_'Jerry'_Lewis_as_Slave_Guard_(uncredited)>,
+        <http://example.org/person/Gregory_Bright_as_Edward>,
+        <http://example.org/person/Haley_Powell_as_Slave_Girl_(uncredited)>,
+        <http://example.org/person/Haylie_Creppel_as_Child_in_the_Park_(uncredited)>,
+        <http://example.org/person/Isaiah_Jackson_as_Zachary>,
+        <http://example.org/person/J.D._Evermore_as_Chapin>,
+        <http://example.org/person/JJ_Coker_as_Mr._Bartholomew_(uncredited)>,
+        <http://example.org/person/James_C._Victor_as_Buyer>,
+        <http://example.org/person/Jarett_Shorts_as_Hornboy_(uncredited)>,
+        <http://example.org/person/Jason_Ament_as_Cooke_(uncredited)>,
+        <http://example.org/person/Jason_Owen_as_Safty_(uncredited)>,
+        <http://example.org/person/Jay_Huguley_as_Sheriff>,
+        <http://example.org/person/Jim_Johnson_as_Lower_Class_Pedestrian_(uncredited)>,
+        <http://example.org/person/John_C._Klein_as_Lumber_Mill_Customer_(uncredited)>,
+        <http://example.org/person/John_McConnell_as_Jonus_Ray>,
+        <http://example.org/person/Jon_Arthur_as_Steamboat_Crew_1st_Mate_(uncredited)>,
+        <http://example.org/person/Joseph_Randy_Causin_as_Steamboat_Crew_(uncredited)>,
+        <http://example.org/person/Justin_Christopher_Vaughn_as_Ezra_(uncredited)>,
+        <http://example.org/person/Justin_Edward_Davis_as_Saratoga_Park_Pedestrian_(uncredited)>,
+        <http://example.org/person/Katherine_Jeanie_Russell_as_Upper_Class_Pedestrian_(uncredited)>,
+        <http://example.org/person/Kelsey_Scott_as_Anne_Northup>,
+        <http://example.org/person/Kelvin_Harrison_as_Victim_2>,
+        <http://example.org/person/Kevonte_Mcdonald_as_Slave_(uncredited)>,
+        <http://example.org/person/Liza_J._Bennett_as_Mistress_Ford>,
+        <http://example.org/person/Lupita_Nyong'o_as_Patsey>,
+        <http://example.org/person/Marc_Macaulay_as_Captain>,
+        <http://example.org/person/Marcus_Lyle_Brown_as_Jasper>,
+        <http://example.org/person/Mark_Joyce_as_Street_Merchant_(uncredited)>,
+        <http://example.org/person/Michael_Fassbender_as_Edwin_Epps>,
+        <http://example.org/person/Michael_Kenneth_Williams_as_Robert>,
+        <http://example.org/person/Mister_Mackey_Jr._as_Randall>,
+        <http://example.org/person/Mustafa_Harris_as_Sam>,
+        <http://example.org/person/Myesha-Tiara_as_Edwin_Epps's_Slave_(uncredited)>,
+        <http://example.org/person/Nicole_Collins_as_Rachel>,
+        <http://example.org/person/Paul_Dano_as_John_Tibeats>,
+        <http://example.org/person/Paul_Giamatti_as_Theophilus_Freeman>,
+        <http://example.org/person/Quvenzhané_Wallis_as_Margaret_Northup>,
+        <http://example.org/person/Richard_Holden_as_Fitzgerald>,
+        <http://example.org/person/Ritchie_Montgomery_as_Roadman_(uncredited)>,
+        <http://example.org/person/Rob_Steinberg_as_Parker>,
+        <http://example.org/person/Sarah_Paulson_as_Mary_Epps>,
+        <http://example.org/person/Scoot_McNairy_as_Brown>,
+        <http://example.org/person/Scott_M._Jefferson_as_Master_Shaw>,
+        <http://example.org/person/Sean_Paul_Braud_as_Lynchman_(uncredited)>,
+        <http://example.org/person/Shawn_Parsons_as_Road_Man_(uncredited)>,
+        <http://example.org/person/Storm_Reid_as_Emily>,
+        <http://example.org/person/Taran_Killam_as_Hamilton>,
+        <http://example.org/person/Terrell_Ransom_Jr._as_Slave_Boy_(uncredited)>,
+        <http://example.org/person/Thomas_Francis_Murphy_as_Patroller>,
+        <http://example.org/person/Timothy_Wyant_as_Ford_Lumber_Buyer_(uncredited)>,
+        <http://example.org/person/Tom_Proctor_as_Biddee>,
+        <http://example.org/person/Tony_Bentley_as_Mr._Moon>,
+        <http://example.org/person/Topsy_Chapman_as_Slave_Spiritual_Singer_1>,
+        <http://example.org/person/Tre_Tureaud_as_Saratoga_Park_Pedestrians_(uncredited)>,
+        <http://example.org/person/Tyler_Soerries_as_Boy_Playing_in_Park_(uncredited)>,
+        <http://example.org/person/Vivian_Fleming-Alvarez_as_Mulatto_Woman>,
+        <http://example.org/person/Wayne_Pére_as_Winslow_(uncredited)>,
+        <http://example.org/person/Willo_Jean-Baptiste_as_Margaret's_Husband> ;
+    schema1:description "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life." ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/History> ;
+    schema1:name "12 Years a Slave" ;
+    schema1:producer <http://example.org/producer/Plan_B_Entertainment,_Regency_Enterprises,_River_Road_Entertainment,_Film4,_New_Regency_Pictures> .
+
+<http://example.org/movie/13_Going_on_30> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adrian_Armas_as_Dancer>,
+        <http://example.org/person/Alex_Black_as_Young_Chris_Grandy>,
+        <http://example.org/person/Alexandra_Kyle_as_Young_Tom-Tom>,
+        <http://example.org/person/Andy_Serkis_as_Richard_Kneeland>,
+        <http://example.org/person/Ashley_Benson_as_Six_Chick>,
+        <http://example.org/person/Benita_Krista_Nall_as_Waitress_at_Party>,
+        <http://example.org/person/Brandon_Henschel_as_Dance>,
+        <http://example.org/person/Brie_Larson_as_Six_Chick>,
+        <http://example.org/person/Brittany_Curran_as_Six_Chick>,
+        <http://example.org/person/Carmit_Bachar_as_Dancer>,
+        <http://example.org/person/Catherine_Combs_as_Catherine>,
+        <http://example.org/person/Christa_Brittany__Allen_as_Young_Jenna>,
+        <http://example.org/person/Corena_Chase_as_Poise_Employee>,
+        <http://example.org/person/Crystal_Michelle_as_Poise_Secretary>,
+        <http://example.org/person/George_Hine_as_Grandy's_Friend>,
+        <http://example.org/person/Gia_Mantegna_as_Gina>,
+        <http://example.org/person/Ian_Barford_as_Pete_Hansen>,
+        <http://example.org/person/Irena_Violette_as_Partygoer>,
+        <http://example.org/person/Jennifer_Garner_as_Jenna_Rink>,
+        <http://example.org/person/Jim_Gaffigan_as_Chris_Grandy>,
+        <http://example.org/person/Joe_Grifasi_as_Mr._Flamhaff>,
+        <http://example.org/person/Judy_Greer_as_Lucy_Wyman>,
+        <http://example.org/person/Julia_Roth_as_Six_Chick>,
+        <http://example.org/person/Kadee_Sweeney_as_Dancer>,
+        <http://example.org/person/Kathy_Baker_as_Bev_Rink>,
+        <http://example.org/person/Kiersten_Warren_as_Trish_Sackett>,
+        <http://example.org/person/Kimberly_Wyatt_as_Dancer>,
+        <http://example.org/person/Lynn_Collins_as_Wendy>,
+        <http://example.org/person/Marcia_DeBonis_as_Arlene>,
+        <http://example.org/person/Mark_Ruffalo_as_Matt_Flamhaff>,
+        <http://example.org/person/Mary_Pat_Gleason_as_Mrs._Flamhaff>,
+        <http://example.org/person/Maz_Jobrani_as_Glenn>,
+        <http://example.org/person/Megan_Lusk_as_Six_Chick>,
+        <http://example.org/person/Nadine_Ellis_as_Dancer>,
+        <http://example.org/person/Nancy_O'Meara_as_Dancer>,
+        <http://example.org/person/Nicole_Abisinio_as_Wardrobe_Designer_(uncredited)>,
+        <http://example.org/person/Phil_Reeves_as_Wayne_Rink>,
+        <http://example.org/person/Philip_Pavel_as_Phil>,
+        <http://example.org/person/Renee_Olstead_as_Becky>,
+        <http://example.org/person/Robinne_Lee_as_Rachel>,
+        <http://example.org/person/Samuel_Ball_as_Alex_Carlson>,
+        <http://example.org/person/Sara_Swain_as_Sara>,
+        <http://example.org/person/Sarah_Loew_as_Carla>,
+        <http://example.org/person/Scout_Taylor-Compton_as_Tiffany_(uncredited)>,
+        <http://example.org/person/Sean_Marquette_as_Young_Matt>,
+        <http://example.org/person/Stacey_Harper_as_Dancer>,
+        <http://example.org/person/Susan_Egan_as_Tracy_Hansen>,
+        <http://example.org/person/Sydni_Beaudoin_as_Sydni>,
+        <http://example.org/person/Tara_Battani_as_Poise_Party_Guest_(uncredited)>,
+        <http://example.org/person/Tyce_Diorio_as_Dancer> ;
+    schema1:description "After total humiliation at her thirteenth birthday party, Jenna Rink wants to just hide until she's thirty. With a little magic, her wish is granted, but it turns out that being thirty isn't as always as awesome as she thought it would be!" ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Fantasy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "13 Going on 30" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Revolution_Studios,_Thirteen_Productions> .
+
+<http://example.org/movie/13_Hours:_The_Secret_Soldiers_of_Benghazi> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alexia_Barlier_as_Sona_Jillani>,
+        <http://example.org/person/Andrew_Arrabito_as_Delta_Operator>,
+        <http://example.org/person/Ben_Youcef_as_Azaan>,
+        <http://example.org/person/Christopher_Dingli_as_Sean_Smith>,
+        <http://example.org/person/David_Costabile_as_Bob>,
+        <http://example.org/person/David_Denman_as_Dave_'Boon'_Benton>,
+        <http://example.org/person/David_Furr_as_DS_Alec>,
+        <http://example.org/person/David_Giuntoli_as_DS_Scott_Wickland>,
+        <http://example.org/person/Davide_Tucci_as_Defence_Attaché>,
+        <http://example.org/person/Demetrius_Grosse_as_DS_Agent_Dave_Ubben>,
+        <http://example.org/person/Dominic_Fumusa_as_John_'Tig'_Tiegen>,
+        <http://example.org/person/Elektra_Anastasi_as_CIA_Agent>,
+        <http://example.org/person/Freddie_Stroma_as_Brit_Vayner>,
+        <http://example.org/person/Gábor_Bodis_as_CIA_Agent>,
+        <http://example.org/person/Ivy_George_as_Emily_Silva>,
+        <http://example.org/person/James_Badge_Dale_as_Tyrone_'Rone'_Woods>,
+        <http://example.org/person/John_Krasinski_as_Jack_Silva>,
+        <http://example.org/person/Julia_Butters_as_Beverly_Silva>,
+        <http://example.org/person/Kenny_Sheard_as_Delta_1>,
+        <http://example.org/person/Kerim_Troeller_as_Viper>,
+        <http://example.org/person/Kevin_Kent_as_DS_Vincent>,
+        <http://example.org/person/Liisa_Evastina_as_Actress>,
+        <http://example.org/person/Manuel_Cauchi_as_Fahreed>,
+        <http://example.org/person/Matt_Letscher_as_Chris_Stevens>,
+        <http://example.org/person/Max_Martini_as_Mark_'Oz'_Geist>,
+        <http://example.org/person/Mike_Moriarty_as_DS_Wesley>,
+        <http://example.org/person/Mohamed_Naimane_as_Hesham>,
+        <http://example.org/person/Pablo_Schreiber_as_Kris_'Tanto'_Paronto>,
+        <http://example.org/person/Shane_Rowe_as_CIA_Annex_Cook>,
+        <http://example.org/person/Steffi_Thake_as_Chief's_Assistant>,
+        <http://example.org/person/Toby_Stephens_as_Glen_'Bub'_Doherty>,
+        <http://example.org/person/Wrenn_Schmidt_as_Becky_Silva>,
+        <http://example.org/person/پیمان_معادی_as_Amahl> ;
+    schema1:description "An American Ambassador is killed during an attack at a U.S. compound in Libya as a security team struggles to make sense out of the chaos." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/History>,
+        <http://example.org/genre/Thriller>,
+        <http://example.org/genre/War> ;
+    schema1:name "13 Hours: The Secret Soldiers of Benghazi" ;
+    schema1:producer <http://example.org/producer/Paramount_Pictures,_3_Arts_Entertainment,_Bay_Films,_Latina_Pictures,_Dune_Films> .
+
+<http://example.org/movie/1408> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alexandra_Silber_as_Young_Woman_at_Bookstore>,
+        <http://example.org/person/Andrew-Lee_Potts_as_Mailbox_Guy>,
+        <http://example.org/person/Angel_Oquendo_as_Taxi_Cab_Driver>,
+        <http://example.org/person/Anthony_C._Mazza_as_Cop_#2>,
+        <http://example.org/person/Benny_Urquidez_as_Claw_Hammer_Maniac>,
+        <http://example.org/person/Bernadette_Lords_as_Hotel_Guest>,
+        <http://example.org/person/Chris_Carey_as_Fireman>,
+        <http://example.org/person/David_Nicholson_as_Man_#2_at_Bookstore>,
+        <http://example.org/person/Drew_Powell_as_Assistant_Hotel_Manager>,
+        <http://example.org/person/Emily_Harvey_as_Secretary>,
+        <http://example.org/person/Eric_Meyers_as_Man_#1_at_Bookstore>,
+        <http://example.org/person/George_Cottle_as_Mailbox_Worker>,
+        <http://example.org/person/Georgie_Lee-Robinson_as_Bookstore_Assistant>,
+        <http://example.org/person/Gil_Cohen-Alloro_as_Maitre_D'>,
+        <http://example.org/person/Holly_Hayes_as_Lady_at_Bookstore>,
+        <http://example.org/person/Isiah_Whitlock_Jr._as_Hotel_Engineer>,
+        <http://example.org/person/Jacob_White_as_Bellboy>,
+        <http://example.org/person/Jasmine_Jessica_Anthony_as_Katie>,
+        <http://example.org/person/Johann_Urb_as_Surfer_Dude>,
+        <http://example.org/person/John_Cusack_as_Mike_Enslin>,
+        <http://example.org/person/Julian_Spencer_as_Mailbox_Worker>,
+        <http://example.org/person/Kate_Walsh_as_Mike_Enslin's_Ex-wife>,
+        <http://example.org/person/Kevin_Dobson_as_Priest>,
+        <http://example.org/person/Kim_Thomson_as_Desk_Clerk>,
+        <http://example.org/person/Len_Cariou_as_Mike's_Father>,
+        <http://example.org/person/Margot_Leicester_as_Mrs._Innkeeper>,
+        <http://example.org/person/Mary_McCormack_as_Lilly_Enslin>,
+        <http://example.org/person/Noah_Lee_Margetts_as_Bellboy>,
+        <http://example.org/person/Paul_Birchard_as_Mr._Innkeeper>,
+        <http://example.org/person/Paul_Kasey_as_Kevin_O'Malley>,
+        <http://example.org/person/Peter_Conboy_as_Man_Outside_Hotel_Fire>,
+        <http://example.org/person/Ray_Nicholas_as_Factory_Owner>,
+        <http://example.org/person/Rob_McGillivray_as_Bellboy>,
+        <http://example.org/person/Samuel_L._Jackson_as_Gerald_Olin>,
+        <http://example.org/person/Thomas_A._McMahon_as_Cop_#1>,
+        <http://example.org/person/Tina_Maskell_as_1950's_Lady>,
+        <http://example.org/person/Tony_Shalhoub_as_Sam_Farrell>,
+        <http://example.org/person/Walter_Lewis_as_Bookstore_Cashier>,
+        <http://example.org/person/William_Armstrong_as_Clay>,
+        <http://example.org/person/William_Willoughby_as_Mailbox_Worker> ;
+    schema1:description "A man who specializes in debunking paranormal occurrences checks into the fabled room 1408 in the Dolphin Hotel. Soon after settling in, he confronts genuine terror." ;
+    schema1:genre <http://example.org/genre/Horror>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "1408" ;
+    schema1:producer <http://example.org/producer/The_Weinstein_Company,_Di_Bonaventura_Pictures,_Dimension_Films> .
+
+<http://example.org/movie/15_Minutes> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_Cohen_as_Hawkins'_Sound_Man>,
+        <http://example.org/person/Anton_Yelchin_as_Boy_in_Burning_Building>,
+        <http://example.org/person/Ashton_Dane_as_Talk_Show_Father>,
+        <http://example.org/person/Avery_Brooks_as_Detective_Leon_Jackson>,
+        <http://example.org/person/Barry_Blueian_as_Immigration_Supervisor>,
+        <http://example.org/person/Barry_Primus_as_Cab_Driver>,
+        <http://example.org/person/Ben_Fiore_as_Police_Officer_(uncredited)>,
+        <http://example.org/person/Bobby_Field_as_Talk_Show_Son>,
+        <http://example.org/person/Brantley_Bush_as_Fireman>,
+        <http://example.org/person/Bruce_Cutler_as_Himself>,
+        <http://example.org/person/Bryan_Foster_as_Hawkins'_Cameraman>,
+        <http://example.org/person/Celeste_Gregoire_as_Girl_in_Restaurant_(uncredited)>,
+        <http://example.org/person/Charlize_Theron_as_Rose_Hearn>,
+        <http://example.org/person/Christine_Claibourne_as_Maggie's_Assistant>,
+        <http://example.org/person/Darius_McCrary_as_Detective_Tommy_Cullen>,
+        <http://example.org/person/David_Alan_Grier_as_Mugger_in_Central_Park>,
+        <http://example.org/person/Dominic_Maglione_as_Police_Officer_#1>,
+        <http://example.org/person/Dorit_Sauer_as_Escort_Service_Woman_#3>,
+        <http://example.org/person/Dwayne_Adway_as_Additional_voices_(voice)_(uncredited)>,
+        <http://example.org/person/Edward_Burns_as_Jordy_Warsaw>,
+        <http://example.org/person/Ellen_Whyte_as_Woman_#2_at_Planet_Hollywood_(uncredited)>,
+        <http://example.org/person/Elma_Vann_as_Escort_Service_Woman_Linda>,
+        <http://example.org/person/Erica_Taylor_as_Nightclub_Patron_(uncredited)>,
+        <http://example.org/person/Everton_Lawrence_as_Restaurant_Patron_(uncredited)>,
+        <http://example.org/person/Floyd_Resnick_as_NYPD_Officer_at_Ludwig's_(uncredited)>,
+        <http://example.org/person/Gabriel_Casseus_as_Unique>,
+        <http://example.org/person/Gail_Greaves_as_Talk_Show_Wife>,
+        <http://example.org/person/George_F._Miller_as_TV_News_Reporter_(uncredited)>,
+        <http://example.org/person/George_Poulos_as_Greek_Waiter>,
+        <http://example.org/person/Giovanni_Capitello_as_Police_Officer_(uncredited)>,
+        <http://example.org/person/Haik_Garibyan_as_Emigrant>,
+        <http://example.org/person/Irina_Gasanova_as_Tamina_Karlova>,
+        <http://example.org/person/James_Handy_as_Deputy_Chief_Fire_Marshal_Declan_Duffy>,
+        <http://example.org/person/Jamie_Burton-Oare_as_Reporter_(uncredited)>,
+        <http://example.org/person/Jane_Velez-Mitchell_as_TV_Newscaster_#2>,
+        <http://example.org/person/Janean_Christine_Mariani_as_Restaurant_Guest_(uncredited)>,
+        <http://example.org/person/Joe_Lisi_as_Police_Captain>,
+        <http://example.org/person/John_DiResta_as_Bobby_Korfin>,
+        <http://example.org/person/Jorge_H._Guzman_as_Bouncer_at_Planet_Hollywood>,
+        <http://example.org/person/Joseph_Alfieri_as_Reporter>,
+        <http://example.org/person/Julieta_Espinoza_as_Unique's_Girlfriend>,
+        <http://example.org/person/Karel_Roden_as_Emil_Slovak>,
+        <http://example.org/person/Kata_Dobó_as_Redhead_at_Ludwig's>,
+        <http://example.org/person/Kelsey_Grammer_as_Robert_Hawkins>,
+        <http://example.org/person/Kim_Cattrall_as_Cassandra>,
+        <http://example.org/person/Kurt_Andon_as_Pizza_Man>,
+        <http://example.org/person/Leda_Mulholland_as_Reporter_(uncredited)>,
+        <http://example.org/person/Lennox_Brown_as_Lookout_Guy>,
+        <http://example.org/person/Louis_F._Garcia_as_Fire_Chief>,
+        <http://example.org/person/Lynette_Ruiz_as_Composite_Artist>,
+        <http://example.org/person/Macy_Merced_as_Paramedic_#1>,
+        <http://example.org/person/Malcolm-Jamal_Warner_as>,
+        <http://example.org/person/Marco_Khan_as_Emigrant>,
+        <http://example.org/person/Mark_Cheek_as_Cameraman_(uncredited)>,
+        <http://example.org/person/Melina_Kanakaredes_as_Nicolette_Karas>,
+        <http://example.org/person/Michael_Arthur_as_NYPD_#2_(uncredited)>,
+        <http://example.org/person/Mike_Camello_as_Fireman_Camello>,
+        <http://example.org/person/Mindy_Marin_as_Maggie>,
+        <http://example.org/person/Noelle_Evans_as_Honey_the_Hooker>,
+        <http://example.org/person/Oleg_Taktarov_as_Oleg_Razgul>,
+        <http://example.org/person/Olga_Morgunova_as_Escort_Service_Woman_#2>,
+        <http://example.org/person/Paul_Herman_as_Detective_Paulie>,
+        <http://example.org/person/Peter_Arnett_as_Himself>,
+        <http://example.org/person/Philippe_Hartmann_as_Daily_News_Reporter_(uncredited)>,
+        <http://example.org/person/Phillip_V._Caruso_as_Arguing_Husband_(uncredited)>,
+        <http://example.org/person/Rikki_Klieman_as_Daphne's_Lawyer>,
+        <http://example.org/person/Riley_G._Matthews_Jr._as_NYPD_Police_Officer_(uncredited)>,
+        <http://example.org/person/Ritchie_Coster_as_News_Stand_Vendor>,
+        <http://example.org/person/Robert_De_Niro_as_Detective_Eddie_Flemming>,
+        <http://example.org/person/Ron_Wall_as_Police_Officer_#2>,
+        <http://example.org/person/Rose_Colasanti_as_Woman_in_Bar_(uncredited)>,
+        <http://example.org/person/Roseanne_Barr_as_Herself>,
+        <http://example.org/person/Scott_Dillin_as_Battery_Park_Policeman>,
+        <http://example.org/person/Sebastian_Roché_as_Ludwig_the_Hairdresser>,
+        <http://example.org/person/Sophia_Alexis_as_Witness_(uncredited)>,
+        <http://example.org/person/Spero_Stamboulis_as_Nicolette's_Cameraman>,
+        <http://example.org/person/Stephen_Davis_as_Murphy>,
+        <http://example.org/person/Sylvia_Lopez_as_TV_Newscaster_#1>,
+        <http://example.org/person/Toni_Kalem_as_Woman_at_Planet_Hollywood>,
+        <http://example.org/person/Tracey_Mulqueen_as_Paramedic_#2>,
+        <http://example.org/person/Tygh_Runyan_as_Stephen_Geller>,
+        <http://example.org/person/Vera_Farmiga_as_Dahpne_Handlova>,
+        <http://example.org/person/Vladimir_Mashkov_as_Milos_Karlova>,
+        <http://example.org/person/William_H._Burns_as_Uniformed_Cop_(uncredited)>,
+        <http://example.org/person/William_Stanton_as_Garcia>,
+        <http://example.org/person/Zuhair_Haddad_as_Airport_Passenger_(uncredited)> ;
+    schema1:description "When Eastern European criminals Oleg and Emil come to New York City to pick up their share of a heist score, Oleg steals a video camera and starts filming their activities, both legal and illegal. When they learn how the American media circus can make a remorseless killer look like the victim and make them rich, they target media-savvy NYPD Homicide Detective Eddie Flemming and media-naive FDNY Fire Marshal Jordy Warsaw, the cops investigating their murder and torching of their former criminal partner, filming everything to sell to the local tabloid TV show \"Top Story.\"" ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "15 Minutes" ;
+    schema1:producer <http://example.org/producer/New_Line_Cinema,_Industry_Entertainment,_Tribeca_Productions,_New_Redemption_Pictures> .
+
+<http://example.org/movie/16_Blocks> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Angela_Seto_as_Chinese_Wife>,
+        <http://example.org/person/Beatriz_Yuste_as_Subway_Commuter>,
+        <http://example.org/person/Bruce_Willis_as_Jack_Mosley>,
+        <http://example.org/person/Casey_Sander_as_Captain_Dan_Gruber>,
+        <http://example.org/person/Conrad_Pla_as_Ortiz>,
+        <http://example.org/person/Cylk_Cozart_as_Jimmy_Mulvey>,
+        <http://example.org/person/Danny_Lima_as_Russian>,
+        <http://example.org/person/David_Morse_as_Frank_Nugent>,
+        <http://example.org/person/David_Sparrow_as_Holding_Cell_Officer>,
+        <http://example.org/person/David_Zayas_as_Robert_Torres>,
+        <http://example.org/person/Hechter_Ubarry_as_Maldonado>,
+        <http://example.org/person/Jenna_Stern_as_Diane_Mosley>,
+        <http://example.org/person/Michael_F._Keenan_as_Fitzpatrick>,
+        <http://example.org/person/Patrick_Garrow_as_Touhey>,
+        <http://example.org/person/Peter_McRobbie_as_Mike_Sheehan>,
+        <http://example.org/person/Richard_Fitzpatrick_as_Deputy_Commissioner_Wagner>,
+        <http://example.org/person/Robert_Clohessy_as_Cannova>,
+        <http://example.org/person/Robert_Racki_as_Jerry_Shue>,
+        <http://example.org/person/Sasha_Roiz_as_Kaller>,
+        <http://example.org/person/Tig_Fong_as_Briggs>,
+        <http://example.org/person/Yasiin_Bey_as_Eddie_Bunker> ;
+    schema1:description "An aging cop is assigned the ordinary task of escorting a fast-talking witness from police custody to a courthouse, but they find themselves running the gauntlet as other forces try to prevent them from getting there." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "16 Blocks" ;
+    schema1:producer <http://example.org/producer/Donners'_Company,_Cheyenne_Enterprises,_Alcon_Entertainment,_Nu_Image_Entertainment_GmbH,_Millennium_Films,_Emmett/Furla_Films,_Equity_Pictures_Medienfonds_GmbH_&_Co._KG_III,_16_Block_Productions> .
+
+<http://example.org/movie/16_to_Life> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Hallee_Hirsh_as_Kate>,
+        <http://example.org/person/Shiloh_Fernandez_as_Rene>,
+        <http://example.org/person/Theresa_Russell_as_Louise>,
+        <http://example.org/person/Will_Rothhaar_as_Carson> ;
+    schema1:description "Romantic comedy. A small town teenager's angst about sexual inexperience drives a comic quest for love and understanding on a birthday to end all birthdays." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "16 to Life" ;
+    schema1:producer <http://example.org/producer/Duck_Farm_Films> .
+
+<http://example.org/movie/1776> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Blythe_Danner_as_Martha_Jefferson>,
+        <http://example.org/person/David_Ford_as_Congressional_President_John_Hancock_(MA)>,
+        <http://example.org/person/Donald_Madden_as_John_Dickinson_(PA)>,
+        <http://example.org/person/Howard_Da_Silva_as_Dr._Benjamin_Franklin>,
+        <http://example.org/person/John_Cullum_as_Edward_Rutledge_(SC)>,
+        <http://example.org/person/Ken_Howard_as_Thomas_Jefferson>,
+        <http://example.org/person/Ray_Middleton_as_Col._Thomas_McKean_(DE)>,
+        <http://example.org/person/Ron_Holgate_as_Richard_Henry_Lee_(VA)>,
+        <http://example.org/person/Roy_Poole_as_Stephen_Hopkins_(RI)>,
+        <http://example.org/person/William_Daniels_as_John_Adams>,
+        <http://example.org/person/William_Hansen_as_Caesar_Rodney_(DE)> ;
+    schema1:description "The film focuses on the representatives of the Thirteen original colonies who participated in the Second Continental Congress. 1776 depicts the three months of deliberation (and, oftentimes, acrimonious debate) that led up to the signing of one of the most important documents in the History of the United States, the Declaration of Independence." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/History>,
+        <http://example.org/genre/Music> ;
+    schema1:name "1776" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures_Corporation> .
+
+<http://example.org/movie/17_Again> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adam_Gregory_as_Dom>,
+        <http://example.org/person/Allison_Miller_as_Scarlett_(Teen)>,
+        <http://example.org/person/Brian_Doyle-Murray_as_Janitor>,
+        <http://example.org/person/Bubba_Lewis_as_Dorky_Kid_(Ned's_Party)>,
+        <http://example.org/person/Chris_Valenti_as_Syracuse_Scout_(1989)>,
+        <http://example.org/person/Collette_Wolfe_as_Wendy>,
+        <http://example.org/person/Danielle_E._Hawkins_as_Cheerleader_(1989)>,
+        <http://example.org/person/Diana_Maria_Riva_as_Judge>,
+        <http://example.org/person/Ed_Ackerman_as_School_Cop>,
+        <http://example.org/person/Ellis_E._Williams_as_Bailiff>,
+        <http://example.org/person/G._Lane_Hillman_as_Kevin_(1989)>,
+        <http://example.org/person/Gregory_Sporleder_as_Ohio_Scout>,
+        <http://example.org/person/Hope_Riley_as_Girl_(Wyatt)>,
+        <http://example.org/person/Hunter_Parrish_as_Stan>,
+        <http://example.org/person/Jeanine_Jackson_as_Scarlet's_Lawyer>,
+        <http://example.org/person/Jim_Gaffigan_as_Coach_Murphy>,
+        <http://example.org/person/Jordan_Schatz_as_Mr._Adams>,
+        <http://example.org/person/Josie_Loren_as_Nicole>,
+        <http://example.org/person/Kat_Graham_as_Jamie>,
+        <http://example.org/person/Katrina_Norman_as_Cheerleader_(1989)>,
+        <http://example.org/person/Keith_Oney_as_Guy_in_Crowd>,
+        <http://example.org/person/Kodi_Kitchen_as_Hostess>,
+        <http://example.org/person/Larry_Poindexter_as_Dean>,
+        <http://example.org/person/Leonard_Wu_as_Kid_(Office)>,
+        <http://example.org/person/Leslie_Mann_as_Scarlett_O'Donnell_(Adult)>,
+        <http://example.org/person/Liana_Blackburn_as_Cheerleader_(1989)>,
+        <http://example.org/person/Lindsay_Taylor_as_Cheerleader_(1989)>,
+        <http://example.org/person/Loren_Lester_as_Mike's_Lawyer>,
+        <http://example.org/person/Lorna_Scott_as_Secretary>,
+        <http://example.org/person/Margaret_Cho_as_Mrs._Dell>,
+        <http://example.org/person/Mario_Cassem_as_Samir>,
+        <http://example.org/person/Matthew_Perry_as_Mike_O'Donnell_(Adult)>,
+        <http://example.org/person/Melissa_Ordway_as_Lauren>,
+        <http://example.org/person/Melora_Hardin_as_Principal_Jane_Masterson>,
+        <http://example.org/person/Michelle_Trachtenberg_as_Maggie_O'Donnell>,
+        <http://example.org/person/Nicole_Sullivan_as_Naomi>,
+        <http://example.org/person/Rhapsody_Violetti_as_Cheerleader_(1989)>,
+        <http://example.org/person/Shelby_Rabara_as_Cheerleader_(1989)>,
+        <http://example.org/person/Sterling_Knight_as_Alex_O'Donnell>,
+        <http://example.org/person/Taisha_Monique_Clark_as_Cheerleader_(1989)>,
+        <http://example.org/person/Thomas_Lennon_as_Ned_Gold>,
+        <http://example.org/person/Tiana_Brown_as_Cheerleader_(1989)>,
+        <http://example.org/person/Tiya_Sircar_as_Samantha>,
+        <http://example.org/person/Tommy_Dewey_as_Roger>,
+        <http://example.org/person/Tyler_Steelman_as_Ned_Gold_(Teen)>,
+        <http://example.org/person/Tyne_Stecklein_as_Cheerleader>,
+        <http://example.org/person/Vanessa_Lee_Chester_as_Cheerleader>,
+        <http://example.org/person/Will_Schaub_as_Referee>,
+        <http://example.org/person/Zac_Efron_as_Mike_O'Donnell_(Teen)> ;
+    schema1:description "On the brink of a midlife crisis, 30-something Mike O'Donnell wishes he could have a \"do-over.\" And that's exactly what he gets when he wakes up one morning to find he's 17 years old again. With his adult mind stuck inside the body of a teenager, Mike actually has the chance to reverse some decisions he wishes he'd never made. But maybe they weren't so bad after all." ;
+    schema1:genre <http://example.org/genre/Comedy> ;
+    schema1:name "17 Again" ;
+    schema1:producer <http://example.org/producer/New_Line_Cinema,_Offspring_Entertainment> .
+
+<http://example.org/movie/1911> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Dennis_To_Yue-Hong_as_Xiong_Bingkun>,
+        <http://example.org/person/Hu_Ge_as_Lin_JueMin>,
+        <http://example.org/person/Huang_Zhizhong_as_Situ_Meitang>,
+        <http://example.org/person/Jackie_Chan_as_Huang_Xing_/_Huang_Keqiang>,
+        <http://example.org/person/James_Lee_Guy_as_Mr._Thompson>,
+        <http://example.org/person/Jaycee_Chan_as_Zhang_Zhenwu>,
+        <http://example.org/person/Jiang_Wu_as_General_Li_Yuanhong>,
+        <http://example.org/person/Joan_Chen_as_Longyu>,
+        <http://example.org/person/Li_Bingbing_as_Xu_Zonghan>,
+        <http://example.org/person/Li_Dongxue_as_Zai_Feng>,
+        <http://example.org/person/Mei_Ting_as_Chen_Yiying>,
+        <http://example.org/person/Ning_Jing_as_Qiu_Jin>,
+        <http://example.org/person/Simon_Dutton_as_John_Newell_Jordan>,
+        <http://example.org/person/Sun_Chun_as_General_Yuan_Shikai>,
+        <http://example.org/person/Tao_Zeru_as_Tang_Weiyong>,
+        <http://example.org/person/Wang_Lu-Yao_as_Yuan's_Concubine>,
+        <http://example.org/person/Wang_Zi_Wen_as_Tang_Manrou>,
+        <http://example.org/person/Wei_Zongwan_as_Yi_Xin>,
+        <http://example.org/person/Winston_Chao_as_Sun_Yat-sen>,
+        <http://example.org/person/Xie_Gang_as_Tang_Shaoyi>,
+        <http://example.org/person/Xing_Jiadong_as_Song_Jiaoren>,
+        <http://example.org/person/Yu_Shao-Qun_as_Wang_Jingwei> ;
+    schema1:description "At the beginning of the 20th century, China is in a state of crisis. The country is split into warring factions, the citizens are starving, and recent political reforms have made matters worse, not better. The ruling Qing Dynasty, led by a seven-year-old emperor, and his ruthless mother, Empress Dowager Longyu is completely out of touch after 250 years of unquestioned power. Huang Xing has recently returned from Japan, where he has studied the art of modern warfare. When he finds his country falling apart, he feels he has no choice but to pick up the sword." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/History>,
+        <http://example.org/genre/War> ;
+    schema1:name "1911" ;
+    schema1:producer <http://example.org/producer/Variance_Films> .
+
+<http://example.org/movie/1941> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bobby_Di_Cicco_as_Wally_Stephens>,
+        <http://example.org/person/Christopher_Lee_as_Capt._Wolfgang_von_Kleinschmidt>,
+        <http://example.org/person/Dan_Aykroyd_as_Sgt._Frank_Tree>,
+        <http://example.org/person/David_L._Lander_as_Joe>,
+        <http://example.org/person/Dianne_Kay_as_Betty_Douglas>,
+        <http://example.org/person/Dick_Miller_as_Officer_Miller>,
+        <http://example.org/person/Dub_Taylor_as_Mr._Malcomb>,
+        <http://example.org/person/Eddie_Deezen_as_Herbie_Kazlminsky>,
+        <http://example.org/person/Elisha_Cook_Jr._as_The_Patron_(Dexter)>,
+        <http://example.org/person/Frank_McRae_as_Pvt._Ogden_Johnson_Jones>,
+        <http://example.org/person/Iggie_Wolfington_as_Meyer_Mishkin>,
+        <http://example.org/person/J._Patrick_McNamara_as_Pvt._DuBois>,
+        <http://example.org/person/Joe_Flaherty_as_Raoul_Lipschitz>,
+        <http://example.org/person/John_Belushi_as_Capt._Wild_Bill_Kelso>,
+        <http://example.org/person/John_Candy_as_Pvt._Foley>,
+        <http://example.org/person/Jordan_Brian_as_Macey_Douglas>,
+        <http://example.org/person/Kerry_Sherman_as_USO_Girl>,
+        <http://example.org/person/Lionel_Stander_as_Angelo_Scioli>,
+        <http://example.org/person/Lorraine_Gary_as_Joan_Douglas>,
+        <http://example.org/person/Lucille_Benson_as_Gas_Mama_(Eloise)>,
+        <http://example.org/person/Michael_McKean_as_Willy>,
+        <http://example.org/person/Mickey_Rourke_as_Reese>,
+        <http://example.org/person/Murray_Hamilton_as_Claude_Crumn>,
+        <http://example.org/person/Nancy_Allen_as_Donna_Stratton>,
+        <http://example.org/person/Ned_Beatty_as_Ward_Douglas>,
+        <http://example.org/person/Patti_LuPone_as_Lydia_Hedberg>,
+        <http://example.org/person/Perry_Lang_as_Dennis_DeSoto>,
+        <http://example.org/person/Robert_Stack_as_Maj._Gen._Joseph_W._Stilwell>,
+        <http://example.org/person/Slim_Pickens_as_Hollis_P._Wood>,
+        <http://example.org/person/Steven_Mond_as_Gus_Douglas>,
+        <http://example.org/person/Susan_Backlinie_as_Polar_Bear_Woman>,
+        <http://example.org/person/Tim_Matheson_as_Capt._Loomis_Birkhead>,
+        <http://example.org/person/Toshirō_Mifune_as_Cmdr._Akiro_Mitamura>,
+        <http://example.org/person/Treat_Williams_as_Cpl._Chuck_'Stretch'_Sitarski>,
+        <http://example.org/person/Warren_Oates_as_Col._'Madman'_Maddox>,
+        <http://example.org/person/Wendie_Jo_Sperber_as_Maxine_Dexheimer> ;
+    schema1:description "It's been six days since the attack on Pearl Harbor. Panic grips California, supposedly the next target of the Japanese forces. Everywhere in California, people are suffering from war nerves. Chaos erupts all over the state. An Army Air Corps Captain, a civilian with a deranged sense of Nationalism, civilian defenders, and a Motor Pool crew all end up chasing a Japanese sub planning to attack LA." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Comedy> ;
+    schema1:name "1941" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Universal_Pictures,_A-Team> .
+
+<http://example.org/movie/1982> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bokeem_Woodbine_as_Scoop>,
+        <http://example.org/person/Hill_Harper_as_Tim_Brown>,
+        <http://example.org/person/La_La_Anthony_as_Neecy>,
+        <http://example.org/person/Quinton_Aaron_as_Turtle>,
+        <http://example.org/person/Sharon_Leal_as_Shenae_Brown>,
+        <http://example.org/person/Wayne_Brady_as_Alonso> ;
+    schema1:description "1982, a film inspired by true events at the onset of the crack epidemic in Philadelphia, tells the story of a father and his efforts to protect his gifted daughter from the insidious epidemic which has literally come home via her drug-addicted mother. As his wife becomes more distant and unreliable, he struggles to raise his daughter on his own, while still striving to help his wife become clean. In the process, he learns some hard truths about his marriage and his life, which will ultimately test him as a parent, a husband, and a man" ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "1982" .
+
+<http://example.org/movie/20,000_Leagues_Under_the_Sea> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Carleton_Young_as_John_Howard>,
+        <http://example.org/person/Charles_Grodin_as_Drummer_Boy_(uncredited)>,
+        <http://example.org/person/Eddie_Marr_as_Shipping_Agent_(uncredited)>,
+        <http://example.org/person/Fred_Graham_as_Casey_Moore_(uncredited)>,
+        <http://example.org/person/Gloria_Pall_as_Blonde_Girlfriend_(uncredited)>,
+        <http://example.org/person/Harper_Goff_as_Minister_in_San_Francisco_Steam_Packet_office_(uncredited)>,
+        <http://example.org/person/Harry_Harvey_as_Ticket_Agent_(uncredited)>,
+        <http://example.org/person/J._M._Kerrigan_as_Billy>,
+        <http://example.org/person/Jack_Gargan_as_Reporter_from_The_Post_(uncredited)>,
+        <http://example.org/person/Jack_Stoney_as_Police_Detective_(uncredited)>,
+        <http://example.org/person/James_Mason_as_Captain_Nemo>,
+        <http://example.org/person/John_Daheim_as_Nautilus_Seaman_(uncredited)>,
+        <http://example.org/person/Kirk_Douglas_as_Ned_Land>,
+        <http://example.org/person/Paul_Lukas_as_Prof._Pierre_Arronax>,
+        <http://example.org/person/Percy_Helton_as_Coach_Driver>,
+        <http://example.org/person/Peter_Lorre_as_Conseil>,
+        <http://example.org/person/Robert_J._Wilke_as_First_Mate_of_the_Nautilus>,
+        <http://example.org/person/Ron_Nyman_as_Sailor_(uncredited)>,
+        <http://example.org/person/Ted_Cooper_as_Mate_on_'Lincoln'>,
+        <http://example.org/person/Ted_de_Corsia_as_Capt._Farragut> ;
+    schema1:description "A ship sent to investigate a wave of mysterious sinkings encounters the advanced submarine, the Nautilus, commanded by Captain Nemo." ;
+    schema1:genre <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Science_Fiction> ;
+    schema1:name "20,000 Leagues Under the Sea" ;
+    schema1:producer <http://example.org/producer/Walt_Disney_Productions> .
+
+<http://example.org/movie/2001:_A_Space_Odyssey> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_Gifford_as_Poole's_Father>,
+        <http://example.org/person/Andy_Wallace_as_Ape>,
+        <http://example.org/person/Ann_Bormann_as_(uncredited)>,
+        <http://example.org/person/Ann_Gillis_as_Poole's_Mother>,
+        <http://example.org/person/Bill_Weston_as_Astronaut>,
+        <http://example.org/person/Bob_Wilyman_as_Ape>,
+        <http://example.org/person/Brian_Hawley_as_Ape>,
+        <http://example.org/person/Burnell_Tucker_as_TMA-1_Site_Photographer_(uncredited)>,
+        <http://example.org/person/Chela_Matthison_as_stewardess>,
+        <http://example.org/person/Daniel_Richter_as_Moon-Watcher>,
+        <http://example.org/person/Danny_Grover_as_Ape>,
+        <http://example.org/person/Darryl_Paes_as_Ape>,
+        <http://example.org/person/David_Charkham_as_Ape>,
+        <http://example.org/person/David_Fleetwood_as_Ape>,
+        <http://example.org/person/David_Hines_as_Ape>,
+        <http://example.org/person/Douglas_Rain_as_HAL_9000_(voice)>,
+        <http://example.org/person/Ed_Bishop_as_Aries-1B_Lunar_Shuttle_Captain>,
+        <http://example.org/person/Edwina_Carroll_as_Aries-1B_Stewardess>,
+        <http://example.org/person/Frank_Miller_as_Mission_Controller_(voice)>,
+        <http://example.org/person/Gary_Lockwood_as_Dr._Frank_Poole>,
+        <http://example.org/person/Glenn_Beck_as_Astronaut>,
+        <http://example.org/person/Heather_Downham_as_Stewardess>,
+        <http://example.org/person/Irena_Marr_as_Russian_Scientist_(uncredited)>,
+        <http://example.org/person/Jane_Pearl_as_(uncredited)>,
+        <http://example.org/person/Jimmy_Bell_as_Ape>,
+        <http://example.org/person/Joe_Refalo_as_Ape>,
+        <http://example.org/person/John_Ashley_as_Ape>,
+        <http://example.org/person/John_Clifford_as_TMA-1_Site_Technician_#2_(uncredited)>,
+        <http://example.org/person/John_Jordan_as_Ape>,
+        <http://example.org/person/John_Swindells_as_TMA-1_Site_Technician_#1_(uncredited)>,
+        <http://example.org/person/Jonathan_Daw_as_Ape>,
+        <http://example.org/person/Judy_Kiern_as_Voiceprint_identification_girl>,
+        <http://example.org/person/Julie_Croft_as_(uncredited)>,
+        <http://example.org/person/Keir_Dullea_as_Dr._Dave_Bowman>,
+        <http://example.org/person/Kenneth_Kendall_as_BBC-12_Announcer_(uncredited)>,
+        <http://example.org/person/Kevin_Scott_as_Miller_(uncredited)>,
+        <http://example.org/person/Kim_Neil_as_(uncredited)>,
+        <http://example.org/person/Krystyna_Marr_as_Russian_Scientist_(uncredited)>,
+        <http://example.org/person/Laurence_Marchant_as_Ape>,
+        <http://example.org/person/Leonard_Rossiter_as_Dr._Andrei_Smyslov>,
+        <http://example.org/person/Maggie_d'Abo_as_stewardess>,
+        <http://example.org/person/Marcella_Markham_as_(uncredited)>,
+        <http://example.org/person/Margaret_Tyzack_as_Elena>,
+        <http://example.org/person/Martin_Amor_as_Interviewer_(uncredited)>,
+        <http://example.org/person/Mike_Lovell_as_Astronaut>,
+        <http://example.org/person/Penny_Brahms_as_Stewardess>,
+        <http://example.org/person/Penny_Francis_as_(uncredited)>,
+        <http://example.org/person/Penny_Pearl_as_(uncredited)>,
+        <http://example.org/person/Péter_Delmár_as_Ape>,
+        <http://example.org/person/Richard_Woods_as_Ape_Killed_by_Moon-Watcher>,
+        <http://example.org/person/Robert_Beatty_as_Dr._Ralph_Halvorsen>,
+        <http://example.org/person/S._Newton_Anderson_as_Young_Man_(uncredited)>,
+        <http://example.org/person/Scott_MacKee_as_Ape>,
+        <http://example.org/person/Sean_Sullivan_as_Dr._Bill_Michaels>,
+        <http://example.org/person/Sheraton_Blount_as_(uncredited)>,
+        <http://example.org/person/Simon_Davis_as_Ape>,
+        <http://example.org/person/Terry_Duggan_as_Ape_Attacked_by_Leopard>,
+        <http://example.org/person/Tony_Jackson_as_Ape>,
+        <http://example.org/person/Vivian_Kubrick_as_Squirt_-_Floyd's_Daughter_(uncredited)>,
+        <http://example.org/person/William_Sylvester_as_Dr._Heywood_R._Floyd> ;
+    schema1:description "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer." ;
+    schema1:genre <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Mystery>,
+        <http://example.org/genre/Science_Fiction> ;
+    schema1:name "2001: A Space Odyssey" ;
+    schema1:producer <http://example.org/producer/Stanley_Kubrick_Productions,_Metro-Goldwyn-Mayer_(MGM)> .
+
+<http://example.org/movie/200_Cigarettes> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Ben_Affleck_as_Bartender>,
+        <http://example.org/person/Casey_Affleck_as_Tom>,
+        <http://example.org/person/Christina_Ricci_as_Val>,
+        <http://example.org/person/Courtney_Love_as_Lucy>,
+        <http://example.org/person/Dave_Chappelle_as_Disco_Cabbie>,
+        <http://example.org/person/Janeane_Garofalo_as_Ellie>,
+        <http://example.org/person/Jay_Mohr_as_Jack>,
+        <http://example.org/person/Kate_Hudson_as_Cindy>,
+        <http://example.org/person/Martha_Plimpton_as_Monica>,
+        <http://example.org/person/Nicole_Ari_Parker_as_Bridget>,
+        <http://example.org/person/Paul_Rudd_as_Kevin> ;
+    schema1:description "A collection of twentysomethings try to cope with relationships, loneliness, desire and their individual neuroses." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "200 Cigarettes" ;
+    schema1:producer <http://example.org/producer/Paramount_Pictures> .
+
+<http://example.org/movie/2012> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Agam_Darshi_as_Aparna>,
+        <http://example.org/person/Alex_Zahara_as_Ark_Bridge_Crew>,
+        <http://example.org/person/Alexandra_Castillo_as_Paris_Reporter>,
+        <http://example.org/person/Alexandre_Haussmann_as_Alec>,
+        <http://example.org/person/Amanda_Peet_as_Kate_Curtis>,
+        <http://example.org/person/Anna_Mae_Routledge_as_Arc_Naval_Officer>,
+        <http://example.org/person/Beatrice_Rosen_as_Tamara>,
+        <http://example.org/person/Beverley_Elliott_as_Cruise_Ship_Lady>,
+        <http://example.org/person/Blu_Mankuma_as_Harry_Helmsley>,
+        <http://example.org/person/Candus_Churchill_as_Cruise_Ship_Lady>,
+        <http://example.org/person/Chad_Riley_as_Ark_Bridge_Crew>,
+        <http://example.org/person/Chang_Tseng_as_Grandfather_Sonam>,
+        <http://example.org/person/Chin_Han_as_Tenzin>,
+        <http://example.org/person/Chiwetel_Ejiofor_as_Adrian_Helmsley>,
+        <http://example.org/person/Chris_Boyd_as_Ark_Boarding_Officer>,
+        <http://example.org/person/Danny_Glover_as_President_Wilson>,
+        <http://example.org/person/David_Orth_as_AF1_Lieutenant>,
+        <http://example.org/person/Dean_Marshall_as_Ark_Communications_Officer>,
+        <http://example.org/person/Donna_Yamamoto_as_AF1_Science_Officer>,
+        <http://example.org/person/Doron_Bell_as_AF1_Science_Officer>,
+        <http://example.org/person/George_Segal_as_Tony_Delgatto>,
+        <http://example.org/person/Henry_O_as_Lama_Rinpoche>,
+        <http://example.org/person/Jason_Anthony_Griffith_as_Ark_Bridge_Crew>,
+        <http://example.org/person/Jason_Diablo_as_Ark_Tech_Officer>,
+        <http://example.org/person/Jill_Morrison_as_Ark_Bridge_Crew>,
+        <http://example.org/person/Jimi_Mistry_as_Dr._Satnam_Tsurutani>,
+        <http://example.org/person/Johann_Urb_as_Sasha>,
+        <http://example.org/person/John_Billingsley_as_Professor_Frederic_West>,
+        <http://example.org/person/John_Cusack_as_Jackson_Curtis>,
+        <http://example.org/person/John_Mee_as_Angry_Billionaire>,
+        <http://example.org/person/Liam_James_as_Noah_Curtis>,
+        <http://example.org/person/Lisa_Lu_as_Grandma_Sonam>,
+        <http://example.org/person/Luis_Javier_as_Vegas_Tow_Truck_Driver>,
+        <http://example.org/person/Lyndall_Grant_as_Governor>,
+        <http://example.org/person/Merrilyn_Gann_as_German_Chancellor>,
+        <http://example.org/person/Morgan_Lily_as_Lilly_Curtis>,
+        <http://example.org/person/Oliver_Platt_as_Carl_Anheuser>,
+        <http://example.org/person/Osric_Chau_as_Nima>,
+        <http://example.org/person/Patrick_Bauchau_as_Roland_Picard>,
+        <http://example.org/person/Patrick_Gilmore_as_Ark_Communications_Officer>,
+        <http://example.org/person/Philippe_Haussmann_as_Oleg>,
+        <http://example.org/person/Raj_Lal_as_Gurdeep>,
+        <http://example.org/person/Ron_Selmour_as_Ark_Boarding_Officer>,
+        <http://example.org/person/Ryan_McDonald_as_Scotty>,
+        <http://example.org/person/Stephen_McHattie_as_Captain_Michaels>,
+        <http://example.org/person/Tanya_Champoux_as_Mrs._Birnbaum>,
+        <http://example.org/person/Thandie_Newton_as_Laura_Wilson>,
+        <http://example.org/person/Tom_McCarthy_as_Dr._Gordon_Silberman>,
+        <http://example.org/person/Ty_Olsson_as_AF1_Officer>,
+        <http://example.org/person/Viv_Leacock_as_Ark_Boarding_Officer>,
+        <http://example.org/person/Woody_Harrelson_as_Charlie_Frost>,
+        <http://example.org/person/Zlatko_Burić_as_Yuri_Karpov> ;
+    schema1:description "Dr. Adrian Helmsley, part of a worldwide geophysical team investigating the effect on the earth of radiation from unprecedented solar storms, learns that the earth's core is heating up. He warns U.S. President Thomas Wilson that the crust of the earth is becoming unstable and that without proper preparations for saving a fraction of the world's population, the entire race is doomed. Meanwhile, writer Jackson Curtis stumbles on the same information. While the world's leaders race to build \"arks\" to escape the impending cataclysm, Curtis struggles to find a way to save his family. Meanwhile, volcanic eruptions and earthquakes of unprecedented strength wreak havoc around the world." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Science_Fiction> ;
+    schema1:name "2012" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Centropolis_Entertainment,_The_Mark_Gordon_Company,_Farewell_Productions> .
+
+<http://example.org/movie/2016:_Obama's_America> a schema1:Movie ;
+    schema1:actor <http://example.org/person/> ;
+    schema1:description "2016: Obama's America takes audiences on a gripping visual journey into the heart of the worlds most powerful office to reveal the struggle of whether one man's past will redefine America over the next four years. The film examines the question, \"If Obama wins a second term, where will we be in 2016?\"  Across the globe and in America, people in 2008 hungered for a leader who would unite and lift us from economic turmoil and war. True to Americas ideals, they invested their hope in a new kind of president, Barack Obama. What they didn't know is that Obama is a man with a past, and in powerful ways that past defines him--who he is, how he thinks, and where he intends to take America and the world. Immersed in exotic locales across four continents, best selling author Dinesh DSouza races against time to find answers to Obama's past and reveal where America will be in 2016." ;
+    schema1:genre <http://example.org/genre/Documentary> ;
+    schema1:name "2016: Obama's America" .
+
+<http://example.org/movie/2046> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bird_McIntyre_as_Bird>,
+        <http://example.org/person/Carina_Lau_as_Lulu/Mimi>,
+        <http://example.org/person/Chang_Chen_as_cc_1966>,
+        <http://example.org/person/Dong_Jie_as_Wang_Jie_Wen>,
+        <http://example.org/person/Faye_Wong_as_Wang_Jing_Wen>,
+        <http://example.org/person/Gong_Li_as_Su_Li-Zhen>,
+        <http://example.org/person/Maggie_Cheung_as_Su_Li-Zhen>,
+        <http://example.org/person/Siu_Ping-Lam_as_Ah_Ping>,
+        <http://example.org/person/Takuya_Kimura_as_Tak>,
+        <http://example.org/person/Tony_Leung_Chiu-Wai_as_Chow_Mo-Wan>,
+        <http://example.org/person/Wong_Sam_as_Mr_Wang>,
+        <http://example.org/person/Zhang_Ziyi_as_Bai_Ling> ;
+    schema1:description "2046 is the sequel to Wong Kar-Wais’ successful box-office hit In The Mood For Love. A film about affairs, ending relationships, and a shared love for Kung-Fu novels as the main character, Chow, writes his own novel and reflects back on his favorite love Su." ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/Fantasy>,
+        <http://example.org/genre/Romance>,
+        <http://example.org/genre/Science_Fiction> ;
+    schema1:name "2046" ;
+    schema1:producer <http://example.org/producer/Paradis_Films,_Orly_Films,_Shanghai_Film_Group_Corporation,_Jet_Tone_Films> .
+
+<http://example.org/movie/20_Dates> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Elie_Samaha_as_Voice_of_the_Producer_(voice)>,
+        <http://example.org/person/Elisabeth_Wagner_as_Elisabeth>,
+        <http://example.org/person/Myles_Berkowitz_as_Myles>,
+        <http://example.org/person/Richard_Arlook_as_The_Agent>,
+        <http://example.org/person/Robert_McKee_as_Himself>,
+        <http://example.org/person/Tia_Carrere_as_Herself> ;
+    schema1:description "Myles is divorced in L.A. He wants a love life and a film career. So he decides to go on 20 dates and find true love in front of a camera, making his first feature. His patient agent, Richard, finds a $60,000 investor, the shadowy Elie. Myles starts his search, sometimes telling his date she's being filmed, sometimes not. Elie wants sex and titillation, Myles wants it \"real.\" Myles regularly talks with his old film teacher, Robert McKee, who wonders if love is possible in modern life. Half-way through the 20 dates, Myles meets Elisabeth; she's everything he desires and she likes him. Can he finish the 20 dates, satisfy Elie, and complete his film without losing Elisabeth?" ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "20 Dates" ;
+    schema1:producer <http://example.org/producer/Fox_Searchlight_Pictures,_Twentieth_Century_Fox_Film_Corporation,_Phoenician_Films> .
+
+<http://example.org/movie/20_Feet_from_Stardom> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bette_Midler_as_Herself>,
+        <http://example.org/person/Bruce_Springsteen_as_Himself>,
+        <http://example.org/person/Chris_Botti_as_Himself>,
+        <http://example.org/person/Darlene_Love_as_Herself>,
+        <http://example.org/person/Lisa_Fischer_as_Herself>,
+        <http://example.org/person/Lou_Adler_as_Himself>,
+        <http://example.org/person/Lynn_Mabry_as_Herself>,
+        <http://example.org/person/Merry_Clayton_as_Herself>,
+        <http://example.org/person/Mick_Jagger_as_Himself>,
+        <http://example.org/person/Patti_Austin_as_Herself>,
+        <http://example.org/person/Sheryl_Crow_as_Herself>,
+        <http://example.org/person/Stevie_Wonder_as_Himself>,
+        <http://example.org/person/Stevvi_Alexander_as_Herself>,
+        <http://example.org/person/Sting_as_Himself>,
+        <http://example.org/person/Ula_Hedwig_as_Herself> ;
+    schema1:description "Backup singers live in a world that lies just beyond the spotlight. Their voices bring harmony to the biggest bands in popular music, but we've had no idea who these singers are or what lives they lead, until now." ;
+    schema1:genre <http://example.org/genre/Documentary>,
+        <http://example.org/genre/Music> ;
+    schema1:name "20 Feet from Stardom" ;
+    schema1:producer <http://example.org/producer/Tremolo_Productions> .
+
+<http://example.org/movie/21> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aaron_Yoo_as_Choi>,
+        <http://example.org/person/Ben_Campbell_as_Kartengeber>,
+        <http://example.org/person/Helen_Carey_as_Ellen_Campbell>,
+        <http://example.org/person/Jack_Gilpin_as_Bob_Phillips>,
+        <http://example.org/person/Jack_McGee_as_Terry>,
+        <http://example.org/person/Jacob_Pitts_as_Fisher>,
+        <http://example.org/person/Jim_Sturgess_as_Ben_Campbell>,
+        <http://example.org/person/Josh_Gad_as_Miles>,
+        <http://example.org/person/Kate_Bosworth_as_Jill_Taylor>,
+        <http://example.org/person/Kevin_Spacey_as_Micky_Rosa>,
+        <http://example.org/person/Laurence_Fishburne_as_Cole_Williams>,
+        <http://example.org/person/Liza_Lapira_as_Kianna>,
+        <http://example.org/person/Sam_Golzari_as_Cam> ;
+    schema1:description "Ben Campbell is a young, highly intelligent, student at M.I.T. in Boston who strives to succeed. Wanting a scholarship to transfer to Harvard School of Medicine with the desire to become a doctor, Ben learns that he cannot afford the $300,000 for the four to five years of schooling as he comes from a poor, working-class background. But one evening, Ben is introduced by his unorthodox math professor Micky Rosa into a small but secretive club of five. Students Jill, Choi, Kianna, and Fisher, who are being trained by Professor Rosa of the skill of card counting at blackjack." ;
+    schema1:genre <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama> ;
+    schema1:name "21" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Relativity_Media> .
+
+<http://example.org/movie/21_&_Over> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Basil_Harris_as_Campus_Cop_#2>,
+        <http://example.org/person/Christiann_Castellanos_as_Pledge_Gomez>,
+        <http://example.org/person/Daniel_Booko_as_Julian>,
+        <http://example.org/person/Danielle_Hartnett_as_(voice)>,
+        <http://example.org/person/Dustin_Ybarra_as_PJ_Brill>,
+        <http://example.org/person/François_Chau_as_Dr._Chang>,
+        <http://example.org/person/Jonathan_Keltz_as_Randy>,
+        <http://example.org/person/Josie_Loren_as_Pledge_Aguilar>,
+        <http://example.org/person/Justin_Chon_as_Jeff_Chang>,
+        <http://example.org/person/Miles_Teller_as_Miller>,
+        <http://example.org/person/Samantha_Futerman_as_Sally_Huang>,
+        <http://example.org/person/Sarah_Wright_as_Nicole>,
+        <http://example.org/person/Skylar_Astin_as_Casey> ;
+    schema1:description "Brilliant student Jeff Chang has the most important interview of his life tomorrow.  But today is still his birthday, what starts off as a casual celebration with friends evolves into a night of debauchery that risks to derail his life plan." ;
+    schema1:genre <http://example.org/genre/Comedy> ;
+    schema1:name "21 & Over" ;
+    schema1:producer <http://example.org/producer/Relativity_Media,_Virgin_Produced,_Mandeville_Films,_SkyLand_Entertainment> .
+
+<http://example.org/movie/21_Grams> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Anastasia_Herin_as_Dolores>,
+        <http://example.org/person/Annie_Corley_as_Trish>,
+        <http://example.org/person/Arita_Trahan_as_Dr._Badnews>,
+        <http://example.org/person/Benicio_del_Toro_as_Jack_Jordan>,
+        <http://example.org/person/Carlo_Alban_as_Lucio>,
+        <http://example.org/person/Carly_Nahon_as_Cathy>,
+        <http://example.org/person/Catherine_Dent_as_Ana>,
+        <http://example.org/person/Charlie_B._Brown_as_Night_Guard>,
+        <http://example.org/person/Charlotte_Gainsbourg_as_Mary_Rivers>,
+        <http://example.org/person/Claire_Pakis_as_Laura>,
+        <http://example.org/person/Clea_DuVall_as_Claudia>,
+        <http://example.org/person/Danny_Huston_as_Michael>,
+        <http://example.org/person/Denis_O'Hare_as_Dr._Rothberg>,
+        <http://example.org/person/Eddie_Marsan_as_Reverend_John>,
+        <http://example.org/person/John_Rubinstein_as_Gynecologist>,
+        <http://example.org/person/Lew_Temple_as_County_Sheriff>,
+        <http://example.org/person/Loyd_Keith_Salter_as_Fat_Man>,
+        <http://example.org/person/Marc_Musso_as_Freddy>,
+        <http://example.org/person/Melissa_Leo_as_Marianne_Jordan>,
+        <http://example.org/person/Naomi_Watts_as_Cristina_Peck>,
+        <http://example.org/person/Paul_Calderon_as_Brown>,
+        <http://example.org/person/Roberto_Medina_as_Dr._Molina>,
+        <http://example.org/person/Sean_Penn_as_Paul_Rivers>,
+        <http://example.org/person/Teresa_Delgado_as_Gina>,
+        <http://example.org/person/Tom_Irwin_as_Dr._Jones>,
+        <http://example.org/person/Tony_Vaughn_as_Al>,
+        <http://example.org/person/Trent_Dee_as_Guard> ;
+    schema1:description "This is the story of three gentle persons: Paul Rivers an ailing mathematician lovelessly married to an English émigré, Christina Peck, an upper-middle-class suburban housewife, happily married and mother of two little girls, and Jack Jordan, an ex-convict who has found in his Christian faith the strength to raise a family. They will be brought together by a terrible accident that will change their lives. By the final frame, none of them will be the same as they will learn harsh truths about love, faith, courage, desire and guilt, and how chance can change our worlds irretrievably, forever." ;
+    schema1:genre <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "21 Grams" ;
+    schema1:producer <http://example.org/producer/This_Is_That_Productions,_Y_Productions,_Mediana_Productions_Filmgesellschaft> .
+
+<http://example.org/movie/21_Jump_Street> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Brie_Larson_as_Molly_Tracey>,
+        <http://example.org/person/Candi_Brooks_as_VW_Bug_Driver>,
+        <http://example.org/person/Caroline_Aaron_as_Annie_Schmidt>,
+        <http://example.org/person/Channing_Tatum_as_Jenko>,
+        <http://example.org/person/Dakota_Johnson_as_Fugazy>,
+        <http://example.org/person/Dave_Franco_as_Eric_Molson>,
+        <http://example.org/person/Ellie_Kemper_as_Ms._Griggs>,
+        <http://example.org/person/Holly_Robinson_Peete_as_Officer_Judy_Hoffs>,
+        <http://example.org/person/Ice_Cube_as_Capt._Dickson>,
+        <http://example.org/person/Jake_Johnson_as_Principal_Dadier>,
+        <http://example.org/person/Joe_Chrest_as_David_Schmidt>,
+        <http://example.org/person/Johnny_Depp_as_Officer_Tom_Hanson_(uncredited)>,
+        <http://example.org/person/Johnny_Pemberton_as_Delroy>,
+        <http://example.org/person/Johnny_Simmons_as_Billiam_Willingham>,
+        <http://example.org/person/Jonah_Hill_as_Schmidt>,
+        <http://example.org/person/Nick_Offerman_as_Captain>,
+        <http://example.org/person/Peter_DeLuise_as_Officer_Doug_Penhall_(uncredited)>,
+        <http://example.org/person/Rob_Riggle_as_Mr._Walters>,
+        <http://example.org/person/Valerie_Tian_as_Burns> ;
+    schema1:description "In high school, Schmidt was a dork and Jenko was the popular jock. After graduation, both of them joined the police force and ended up as partners riding bicycles in the city park. Since they are young and look like high school students, they are assigned to an undercover unit to infiltrate a drug ring that is supplying high school students synthetic drugs." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Crime> ;
+    schema1:name "21 Jump Street" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Original_Film,_Stephen_J._Cannell_Productions,_Relativity_Media,_Metro-Goldwyn-Mayer_(MGM)> .
+
+<http://example.org/movie/22_Jump_Street> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Amber_Stevens_as_Maya>,
+        <http://example.org/person/Anna_Faris_as_Anna_(30_Jump_Street:_Flight_Academy)>,
+        <http://example.org/person/Bill_Hader_as_Culinary_School_Villain>,
+        <http://example.org/person/Caroline_Aaron_as_Annie_Schmidt>,
+        <http://example.org/person/Channing_Tatum_as_Jenko>,
+        <http://example.org/person/Dave_Franco_as_Eric_Molson>,
+        <http://example.org/person/Dax_Flame_as_Zack>,
+        <http://example.org/person/Dustin_Nguyen_as_Vietnamese_Jesus>,
+        <http://example.org/person/Eddie_J._Fernandez_as_Scarface>,
+        <http://example.org/person/Ice_Cube_as_Captain_Dickson>,
+        <http://example.org/person/Jillian_Bell_as_Brandi>,
+        <http://example.org/person/Jimmy_Tatro_as_Rooster>,
+        <http://example.org/person/Joe_Chrest_as_David_Schmidt>,
+        <http://example.org/person/Johnny_Pemberton_as_Delroy>,
+        <http://example.org/person/Jonah_Hill_as_Schmidt>,
+        <http://example.org/person/Marc_Evan_Jackson_as_Dr._Murphy>,
+        <http://example.org/person/Nick_Offerman_as_Deputy_Chief_Hardy>,
+        <http://example.org/person/Patton_Oswalt_as_MC_State_Professor>,
+        <http://example.org/person/Peter_Stormare_as_Big_Meat>,
+        <http://example.org/person/Queen_Latifah_as_Mrs._Dickinson>,
+        <http://example.org/person/Ramiro_'Ramir'_Delgado_Ruiz_as>,
+        <http://example.org/person/Richard_Grieco_as_Dennis_Booker>,
+        <http://example.org/person/Rob_Riggle_as_Mr._Walters>,
+        <http://example.org/person/Seth_Rogen_as_Morton_Schmidt>,
+        <http://example.org/person/Wyatt_Russell_as_Benji> ;
+    schema1:description "After making their way through high school (twice), big changes are in store for officers Schmidt and Jenko when they go deep undercover at a local college. But when Jenko meets a kindred spirit on the football team, and Schmidt infiltrates the bohemian art major scene, they begin to question their partnership. Now they don't have to just crack the case - they have to figure out if they can have a mature relationship. If these two overgrown adolescents can grow from freshmen into real men, college might be the best thing that ever happened to them." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Crime> ;
+    schema1:name "22 Jump Street" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Original_Film,_Media_Rights_Capital,_Metro-Goldwyn-Mayer_(MGM),_Cannell_Studios,_LStar_Capital,_33andOut_Productions,_JHF_Productions> .
+
+<http://example.org/movie/24_7:_Twenty_Four_Seven> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Annette_Badland_as_Tim's_Mother_(Pat)>,
+        <http://example.org/person/Bob_Hoskins_as_Alan_Darcy>,
+        <http://example.org/person/Bruce_Jones_as_Tim's_Dad_(Geoff)>,
+        <http://example.org/person/Danny_Nussbaum_as_Tim>,
+        <http://example.org/person/Darren_O._Campbell_as_Daz_(as_Darren_Campbell)>,
+        <http://example.org/person/Frank_Harper_as_Ronnie_Marsh>,
+        <http://example.org/person/James_Corden_as_Tonka>,
+        <http://example.org/person/James_Hooton_as_'Wolfman'_Knighty>,
+        <http://example.org/person/Jimmy_Hynd_as_Meggy>,
+        <http://example.org/person/Johann_Myers_as_Benny>,
+        <http://example.org/person/Justin_Brady_as_Gadget>,
+        <http://example.org/person/Karl_Collins_as_Stuart>,
+        <http://example.org/person/Krishan_Beresford_as_Young_Darcy>,
+        <http://example.org/person/Mat_Hand_as_Wesley_Fagash>,
+        <http://example.org/person/Toby_as_Woody_(the_Dog)> ;
+    schema1:description "In a typical English working-class town, the juveniles have nothing more to do than hang around in gangs. One day, Alan Darcy, a highly motivated man with the same kind of youth experience, starts trying to get the young people off the street and into doing something they can believe in: Boxing. Darcy opens a boxing club, aiming to bring the rival gangs together." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "24 7: Twenty Four Seven" ;
+    schema1:producer <http://example.org/producer/Scala_Films> .
+
+<http://example.org/movie/25th_Hour> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aaron_Stanford_as_Marcuse>,
+        <http://example.org/person/Al_Palagonia_as_Salvatore_Dominick>,
+        <http://example.org/person/Anna_Paquin_as_Mary_D'Annuzio>,
+        <http://example.org/person/Barry_Pepper_as_Frank_Slaughtery>,
+        <http://example.org/person/Brian_Cox_as_James_Brogan>,
+        <http://example.org/person/Dania_Ramirez_as_Daphne>,
+        <http://example.org/person/Edward_Norton_as_Monty_Brogan>,
+        <http://example.org/person/Isiah_Whitlock_Jr._as_Agent_Flood>,
+        <http://example.org/person/Larissa_Drekonja_as_Dasha>,
+        <http://example.org/person/Levan_Uchaneishvili_as_Uncle_Nikolai>,
+        <http://example.org/person/Michael_Genet_as_Agent_Cunningham>,
+        <http://example.org/person/Michole_Briana_White_as_Coventry_Administrator>,
+        <http://example.org/person/Misha_Kuznetsov_as_Senka_Valghobek>,
+        <http://example.org/person/Patrice_O'Neal_as_Khari>,
+        <http://example.org/person/Philip_Seymour_Hoffman_as_Jacob_Elinsky>,
+        <http://example.org/person/Rosario_Dawson_as_Naturelle_Riviera>,
+        <http://example.org/person/Tony_Devon_as_Agent_Allen>,
+        <http://example.org/person/Tony_Siragusa_as_Kostya_Novotny> ;
+    schema1:description "The filmed adaptation from David Benioff's novel of the same name. Set in New York, a convicted drug dealer named Monty has one day left of freedom before he is sent to prison. Anger, blame, frustration, betrayal, guilt and loneliness are themes on this last day of friends, family, parties, saying goodbye, and setting things straight. A Spike Lee joint." ;
+    schema1:genre <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama> ;
+    schema1:name "25th Hour" ;
+    schema1:producer <http://example.org/producer/40_Acres_&_A_Mule_Filmworks,_Touchstone_Pictures> .
+
+<http://example.org/movie/27_Dresses> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alexa_Havins_as_Boat_Bride>,
+        <http://example.org/person/Alyssa_Bresnahan_as_Diner_Waitress>,
+        <http://example.org/person/Bern_Cohen_as_Rabbi>,
+        <http://example.org/person/Brian_Kerwin_as_Hal_Nichols>,
+        <http://example.org/person/Brigitte_Bourdeau_as_Salesgirl_Olga>,
+        <http://example.org/person/Charli_Barcena_as_Young_Tess>,
+        <http://example.org/person/Danielle_Skraastad_as_Bride_Suzanne>,
+        <http://example.org/person/David_Castro_as_Pedro>,
+        <http://example.org/person/Edward_Burns_as_George>,
+        <http://example.org/person/Ellen_H._Schwartz_as_Diner_Waitress>,
+        <http://example.org/person/Erin_Fogel_as_Shari_Rabinowitz>,
+        <http://example.org/person/James_Marsden_as_Kevin_Doyle>,
+        <http://example.org/person/Jane_Pfitsch_as_Cousin_Lisa>,
+        <http://example.org/person/Jennifer_Bassey_as_Jane's_Aunt>,
+        <http://example.org/person/Jennifer_Lim_as_Bridal_Salesgirl>,
+        <http://example.org/person/Judy_Greer_as_Casey>,
+        <http://example.org/person/Katherine_Heigl_as_Jane_Nichols>,
+        <http://example.org/person/Krysten_Ritter_as_Gina_the_Goth>,
+        <http://example.org/person/Laksh_Singh_as_Hindu_Priest>,
+        <http://example.org/person/Lyralen_Kaye_as_Yoga_Instructor>,
+        <http://example.org/person/Malin_Åkerman_as_Tess_Nichols>,
+        <http://example.org/person/Maulik_Pancholy_as_Trent>,
+        <http://example.org/person/Melora_Hardin_as_Maureen>,
+        <http://example.org/person/Michael_Mosley_as_Bar_Dude>,
+        <http://example.org/person/Michael_Ziegfeld_as_Taxi_Fahrer_Khaleel>,
+        <http://example.org/person/Peyton_List_as_Young_Jane>,
+        <http://example.org/person/Richard_O'Rourke_as_Jane's_Minister>,
+        <http://example.org/person/Robert_Clohessy_as_Dive_Bartender>,
+        <http://example.org/person/Ron_Simons_as_Boathouse_Chef>,
+        <http://example.org/person/Ronald_Guttman_as_Antoine>,
+        <http://example.org/person/Yetta_Gottesman_as_Hip_Bridesmaid> ;
+    schema1:description "Altruistic Jane finds herself facing her worst nightmare as her younger sister announces her engagement to the man Jane secretly adores." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "27 Dresses" ;
+    schema1:producer <http://example.org/producer/Spyglass_Entertainment,_Fox_2000_Pictures,_Dune_Entertainment_III> .
+
+<http://example.org/movie/28_Days> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_Tudyk_as_Gerhardt>,
+        <http://example.org/person/Andrew_Dolan_as_Groom>,
+        <http://example.org/person/Azura_Skye_as_Andrea>,
+        <http://example.org/person/Brittani_Warrick_as_Traci>,
+        <http://example.org/person/Christina_Chang_as_Bridesmaid>,
+        <http://example.org/person/Corinne_Reilly_as_Vanessa>,
+        <http://example.org/person/Dan_Byrd_as_Older_Boy_at_Gas_Station>,
+        <http://example.org/person/Diane_Ladd_as_Bobbie_Jean>,
+        <http://example.org/person/Dominic_West_as_Jasper>,
+        <http://example.org/person/Elijah_Kelley_as_Darnell>,
+        <http://example.org/person/Elizabeth_Perkins_as_Lily_Cummings>,
+        <http://example.org/person/Frank_Hoyt_Taylor_as_Equine_Therapist>,
+        <http://example.org/person/Jim_Moody_as_Chauffeur>,
+        <http://example.org/person/Joanne_Pankow_as_Saleslady_/_Night_Tech>,
+        <http://example.org/person/Katie_Scharf_as_Young_Gwen>,
+        <http://example.org/person/Loudon_Wainwright_III_as_Guitar_Guy>,
+        <http://example.org/person/Maeve_McGuire_as_Groom's_Mother>,
+        <http://example.org/person/Margo_Martindale_as_Betty>,
+        <http://example.org/person/Marianne_Jean-Baptiste_as_Roshanda>,
+        <http://example.org/person/Meredith_Deane_as_Young_Lily>,
+        <http://example.org/person/Mike_O'Malley_as_Oliver>,
+        <http://example.org/person/Reni_Santoni_as_Daniel>,
+        <http://example.org/person/Ric_Reitz_as_Father_at_Gas_Station>,
+        <http://example.org/person/Sandra_Bullock_as_Gwen_Cummings>,
+        <http://example.org/person/Steve_Buscemi_as_Cornell>,
+        <http://example.org/person/Susan_Krebs_as_Evelyn>,
+        <http://example.org/person/Viggo_Mortensen_as_Eddie_Boone> ;
+    schema1:description "After getting into a car accident while drunk on the day of her sister's wedding, Gwen Cummings is given a choice between prison or a rehab center. She chooses rehab, but is extremely resistant to taking part in any of the treatment programs they have to offer, refusing to admit that she has an alcohol addiction." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama> ;
+    schema1:name "28 Days" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures> .
+
+<http://example.org/movie/28_Days_Later> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alex_Palmer_as_Activist>,
+        <http://example.org/person/Alexander_Delamere_as_Mr._Bridges>,
+        <http://example.org/person/Bindu_De_Stoppani_as_Activist>,
+        <http://example.org/person/Brendan_Gleeson_as_Frank>,
+        <http://example.org/person/Christopher_Dunne_as_Jim's_father>,
+        <http://example.org/person/Christopher_Eccleston_as_Major_Henry_West>,
+        <http://example.org/person/Cillian_Murphy_as_Jim>,
+        <http://example.org/person/David_Schneider_as_Scientist>,
+        <http://example.org/person/Emma_Hitching_as_Jim's_mother>,
+        <http://example.org/person/Jukka_Hiltunen_as_Activist>,
+        <http://example.org/person/Junior_Laniyan_as_Private_Bell>,
+        <http://example.org/person/Justin_Hackney_as_Infected_Kid>,
+        <http://example.org/person/Kim_McGarrity_as_Mr._Bridges’_Daughter>,
+        <http://example.org/person/Leo_Bill_as_Private_Jones>,
+        <http://example.org/person/Luke_Mably_as_Private_Clifton>,
+        <http://example.org/person/Megan_Burns_as_Hannah>,
+        <http://example.org/person/Naomie_Harris_as_Selena>,
+        <http://example.org/person/Noah_Huntley_as_Mark>,
+        <http://example.org/person/Ray_Panthaki_as_Private_Bedford>,
+        <http://example.org/person/Ricci_Harnett_as_Corporal_Mitchell>,
+        <http://example.org/person/Stuart_McQuarrie_as_Seargent_Farrell>,
+        <http://example.org/person/Toby_Sedgwick_as_Infected_Priest> ;
+    schema1:description "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain." ;
+    schema1:genre <http://example.org/genre/Horror>,
+        <http://example.org/genre/Science_Fiction>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "28 Days Later" ;
+    schema1:producer <http://example.org/producer/DNA_Films,_British_Film_Council> .
+
+<http://example.org/movie/28_Weeks_Later> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Amanda_Lawrence_as_Carpark_Civilian>,
+        <http://example.org/person/Amanda_Walker_as_Sally>,
+        <http://example.org/person/Andrew_Byron_as_Carpark_Soldier>,
+        <http://example.org/person/Beans_El-Balawi_as_Boy_in_Cottage>,
+        <http://example.org/person/Catherine_McCormack_as_Alice>,
+        <http://example.org/person/Chris_Ryman_as_Rooftop_Sniper>,
+        <http://example.org/person/Daniel_Baggs_as_Jeremy_Renner_-_Double_(uncredited)>,
+        <http://example.org/person/Daniel_Jefferson_as_Civilian_(uncredited)>,
+        <http://example.org/person/Dean_Alexandrou_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Debbie_Kurup_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Didier_Dell_Benjamin_as_Civilian_(uncredited)>,
+        <http://example.org/person/Drew_Rhys-Williams_as_Carpark_Civilian>,
+        <http://example.org/person/Ed_Coleman_as_Carpark_Civilian>,
+        <http://example.org/person/Emily_Beecham_as_Karen>,
+        <http://example.org/person/Gareth_Clarke_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Garfield_Morgan_as_Geoff>,
+        <http://example.org/person/Harold_Perrineau_as_Flynn>,
+        <http://example.org/person/Idris_Elba_as_General_Stone>,
+        <http://example.org/person/Imogen_Poots_as_Tammy_Harris>,
+        <http://example.org/person/James_Fiddy_as_Victim_(uncredited)>,
+        <http://example.org/person/Jane_Osborn_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Jane_Thorne_as_Depot_Woman>,
+        <http://example.org/person/Jason_Curle_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Jeremy_Renner_as_Sergeant_Doyle>,
+        <http://example.org/person/Joseph_Ripley_as_Infected_person_(uncredited)>,
+        <http://example.org/person/João_Costa_Menezes_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Jude_Poyer_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Karen_Meagher_as_Carpark_Civilian>,
+        <http://example.org/person/Katie_Borland_as_Infected_(uncredited)>,
+        <http://example.org/person/Kish_Sharma_as_Depot_Man>,
+        <http://example.org/person/Laine_Edwards_as_Civilian_(uncredited)>,
+        <http://example.org/person/Mackintosh_Muggleton_as_Andy>,
+        <http://example.org/person/Maeve_Malley-Ryan_as_Carpark_Civilian>,
+        <http://example.org/person/Matt_Reeves_as_Bunker_Soldier>,
+        <http://example.org/person/Meghan_Popiel_as_DLR_Soldier>,
+        <http://example.org/person/Philip_Bulcock_as_Senior_Medical_Officer>,
+        <http://example.org/person/Pip_Henderson_as_Infected_(uncredited)>,
+        <http://example.org/person/Raymond_Waring_as_Sam>,
+        <http://example.org/person/Robert_Carlyle_as_Don>,
+        <http://example.org/person/Roderic_Culver_as_Carpark_Civilian>,
+        <http://example.org/person/Rose_Byrne_as_Scarlet>,
+        <http://example.org/person/Sarah_Finigan_as_Carpark_Civilian>,
+        <http://example.org/person/Selina_Lo_as_Infected_Person_(uncredited)>,
+        <http://example.org/person/Shahid_Ahmed_as_Jacob>,
+        <http://example.org/person/Simon_Delaney_as_Carpark_Civilian>,
+        <http://example.org/person/Stewart_Alexander_as_Military_Officer>,
+        <http://example.org/person/Stuart_Adams_as_Don>,
+        <http://example.org/person/Thomas_Garvey_as_Bunker_Major>,
+        <http://example.org/person/Tom_Bodell_as_Medical_Centre_Lobby_Soldier>,
+        <http://example.org/person/Tommy_Gunn_as_Marine_(uncredited)>,
+        <http://example.org/person/Tristan_Tait_as_Soldier>,
+        <http://example.org/person/William_Meredith_as_Medical_Officer> ;
+    schema1:description "In this chilling sequel to 28 Days Later, the inhabitants of the British Isles appear to have lost their battle against the onslaught of disease, as the deadly rage virus has killed every citizen there. Six months later, a group of Americans dare to set foot on the isles, convinced the danger has come and gone. But it soon becomes all too clear that the scourge continues to live, waiting to pounce on its next victims." ;
+    schema1:genre <http://example.org/genre/Horror>,
+        <http://example.org/genre/Science_Fiction>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "28 Weeks Later" ;
+    schema1:producer <http://example.org/producer/DNA_Films,_Figment_Films,_Sociedad_General_de_Cine_S.A.,_UK_Film_Council,_Fox_Atomic,_Koan_Films> .
+
+<http://example.org/movie/2:13> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Kevin_Pollak_as_Dr._Simmons>,
+        <http://example.org/person/Mark_Pellegrino_as_John_Tyler>,
+        <http://example.org/person/Mark_Thompson_as_Russell_Spivey>,
+        <http://example.org/person/Teri_Polo_as_Amanda_Richardson> ;
+    schema1:description "A police profiler has just returned from psychiatric leave only to find that he is caught up in a serial killer's rampage. Fighting to keep buried the trauma of his childhood, he must confront the all too-familiar flesh masks that the killer leaves on the faces of his victims. He must face his own demons along with the killer to save his small eroding existence." ;
+    schema1:genre <http://example.org/genre/Horror>,
+        <http://example.org/genre/Mystery>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "2:13" ;
+    schema1:producer <http://example.org/producer/Anthem_Pictures,_It's_An_Us_Thing_Productions_Inc.> .
+
+<http://example.org/movie/2_Fast_2_Furious> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Amaury_Nolasco_as_Orange_Julius>,
+        <http://example.org/person/Bettina_Huffer_as_Suki's_Girl>,
+        <http://example.org/person/Cobette_Harper_as_Agent>,
+        <http://example.org/person/Cole_Hauser_as_Carter_Verone>,
+        <http://example.org/person/Corey_Michael_Eubanks_as_Max_Campisi>,
+        <http://example.org/person/Devon_Aoki_as_Suki>,
+        <http://example.org/person/Edward_Finlay_as_Agent_Dunn>,
+        <http://example.org/person/Eric_Etebari_as_Darden>,
+        <http://example.org/person/Eva_Mendes_as_Monica_Fuentes>,
+        <http://example.org/person/Felecia_Rafield_as_Detective>,
+        <http://example.org/person/James_Remar_as_Agent_Markham>,
+        <http://example.org/person/Jin_Au-Yeung_as_Jimmy>,
+        <http://example.org/person/John_Cenatiempo_as_Korpi>,
+        <http://example.org/person/Jose_Perez_as_Jose>,
+        <http://example.org/person/Kerry_Rossall_as_Police_Chase_Cop>,
+        <http://example.org/person/Limary_Agosto_as_Waitress>,
+        <http://example.org/person/Ludacris_as_Tej_Parker>,
+        <http://example.org/person/Marc_Macaulay_as_Agent>,
+        <http://example.org/person/Marianne_M._Arreaga_as_Police_Chopper_Pilot>,
+        <http://example.org/person/Mark_Boone_Junior_as_Detective_Whitworth>,
+        <http://example.org/person/Mateo_Herreros_as_Detective>,
+        <http://example.org/person/Michael_Ealy_as_Slap_Jack>,
+        <http://example.org/person/Mo_Gallini_as_Enrique>,
+        <http://example.org/person/Neal_H._Moritz_as_Swerving_Cop>,
+        <http://example.org/person/Nievecita_Dubuque_as_Suki's_Girl>,
+        <http://example.org/person/Paul_Walker_as_Brian_O'Conner>,
+        <http://example.org/person/Phuong_Tuyet_Vo_as_Suki's_Girl>,
+        <http://example.org/person/Roberto_'Sanz'_Sanchez_as_Roberto>,
+        <http://example.org/person/Sammy_Maloof_as_Joe_Osborne>,
+        <http://example.org/person/Sincerely_A._Ward_as_Slap_Jack's_Girlfriend>,
+        <http://example.org/person/Tamara_Jones_as_Customs_Technician>,
+        <http://example.org/person/Tara_Carroll_as_Seductress>,
+        <http://example.org/person/Tequilla_Hill_as_Suki's_Girl>,
+        <http://example.org/person/Thom_Barry_as_Agent_Bilkins>,
+        <http://example.org/person/Tony_Bolano_as_Gardener>,
+        <http://example.org/person/Troy_Brown_as_Paul_Hackett>,
+        <http://example.org/person/Troy_Robinson_as_Feliz_Vispone>,
+        <http://example.org/person/Tyrese_Gibson_as_Roman_Pearce>,
+        <http://example.org/person/Walter_'Duke'_Foster_as_Detective>,
+        <http://example.org/person/Zachary_L._Mann_as_U.S._Customs_Lead_Agent> ;
+    schema1:description "It's a major double-cross when former police officer Brian O'Conner teams up with his ex-con buddy Roman Pearce to transport a shipment of \"dirty\" money for shady Miami-based import-export dealer Carter Verone. But the guys are actually working with undercover agent Monica Fuentes to bring Verone down." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "2 Fast 2 Furious" ;
+    schema1:producer <http://example.org/producer/Mikona_Productions_GmbH_&_Co._KG,_Universal_Pictures,_Original_Film,_Ardustry_Entertainment> .
+
+<http://example.org/movie/2_Guns> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aaron_Zell_as_Roughneck_#3>,
+        <http://example.org/person/Ambyr_Childers_as_Ms._Young>,
+        <http://example.org/person/Azure_Parsons_as_Waitress_Maggie>,
+        <http://example.org/person/Bill_Paxton_as_Earl>,
+        <http://example.org/person/Bill_Stinchcomb_as_Uniformed_Border_Agent>,
+        <http://example.org/person/Christopher_Dempsey_as_Border_Guard>,
+        <http://example.org/person/Christopher_Matthew_Cook_as_Thick>,
+        <http://example.org/person/David_Kency_as_Lead_MP_(Shore_Patrol)>,
+        <http://example.org/person/Denzel_Washington_as_Robert_'Bobby'_Trench>,
+        <http://example.org/person/Derek_Solorsano_as_Ferret_Nose_Julio>,
+        <http://example.org/person/Doris_Morgado_as_Daisie>,
+        <http://example.org/person/Edgar_Arreola_as_Rudy_(Papi's_Men)>,
+        <http://example.org/person/Edward_James_Olmos_as_Papi_Greco>,
+        <http://example.org/person/Evie_Thompson_as_Patsy_(Dr._Ken's_Assistant)>,
+        <http://example.org/person/Fred_Ward_as_Admiral_Tuwey>,
+        <http://example.org/person/George_Wilson_as_Bank_Guard>,
+        <http://example.org/person/Gilbert_Rosales_as_Skinny_Immigrant>,
+        <http://example.org/person/Greg_Sproles_as_Chief_Lucas>,
+        <http://example.org/person/Henry_Penzi_as_Roughneck_#4>,
+        <http://example.org/person/Hillel_M._Sharman_as_Roughneck_#2>,
+        <http://example.org/person/Jack_Landry_as_Officer_Phil>,
+        <http://example.org/person/James_Marsden_as_Quince>,
+        <http://example.org/person/Jason_Kirkpatrick_as_Tommy_Boy>,
+        <http://example.org/person/Jesus_Jr._as_Roughneck_(Papi's_Men)>,
+        <http://example.org/person/John_McConnell_as_Officer_Dave>,
+        <http://example.org/person/Kyle_Russell_Clements_as_Teemo>,
+        <http://example.org/person/Lindsey_G._Smith_as_Gina_Corrales>,
+        <http://example.org/person/Lindsey_Gort_as_Waitress_Marjorie>,
+        <http://example.org/person/Lucky_Johnson_as_Tim_Corrales>,
+        <http://example.org/person/Lucy_Faust_as_Scared_Woman>,
+        <http://example.org/person/Mark_Adam_as_Navy_Firefighter>,
+        <http://example.org/person/Mark_Wahlberg_as_Michael_'Stig'_Stigman>,
+        <http://example.org/person/Michael_Beasley_as_Hard_Case_Border_Patrol>,
+        <http://example.org/person/Patrick_Fischler_as_Dr._Ken>,
+        <http://example.org/person/Paula_Patton_as_Deb>,
+        <http://example.org/person/Peter_Gabb_as_Doorman>,
+        <http://example.org/person/Ritchie_Montgomery_as_Chief_of_Police>,
+        <http://example.org/person/Robert_John_Burke_as_Jessup>,
+        <http://example.org/person/Robert_Larriviere_as_Bank_Manager>,
+        <http://example.org/person/Samuel_Baca-Garcia_as_Javier_(Papi's_Son)>,
+        <http://example.org/person/Tait_Fletcher_as_Mini>,
+        <http://example.org/person/Tim_Bell_as_Lean>,
+        <http://example.org/person/Tony_Sanford_as_Slim_Jay>,
+        <http://example.org/person/Yohance_Myles_as_Lead_Agent_(FBI_Man)> ;
+    schema1:description "A DEA agent and an undercover Naval Intelligence officer who have been tasked with investigating one another find they have been set up by the mob -- the very organization the two men believe they have been stealing money from." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Crime> ;
+    schema1:name "2 Guns" ;
+    schema1:producer <http://example.org/producer/Universal_Studios,_Marc_Platt_Productions,_Emmett/Furla_Films,_Envision_Entertainment_Corporation> .
+
+<http://example.org/movie/300> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Agnieshka_Wnorowska_as_Market_woman_(uncredited)>,
+        <http://example.org/person/Alex_Ivanovici_as_Ephor_#2>,
+        <http://example.org/person/Alexandra_Beaton_as_Burned_Village_Child>,
+        <http://example.org/person/Amélie_Sorel_as_Slave_Girl>,
+        <http://example.org/person/Andreanne_Ross_as_Concubine_#1>,
+        <http://example.org/person/Andrew_Pleavin_as_Daxos>,
+        <http://example.org/person/Andrew_Shaver_as_Free_Greek-Potter>,
+        <http://example.org/person/Andrew_Tiernan_as_Ephialtes>,
+        <http://example.org/person/Ariadne_Bourbonnière_as_Kissing_Concubine_#1>,
+        <http://example.org/person/Arthur_Holden_as_Partisan>,
+        <http://example.org/person/Atif_Y._Siddiqi_as_Transsexual_(Arabian)_#3>,
+        <http://example.org/person/Bonnie_Mak_as_Slave_Girl>,
+        <http://example.org/person/Camille_Rizkallah_as_Giant_with_Arrow>,
+        <http://example.org/person/Caroline_Aspirot_as_Slave_Girl>,
+        <http://example.org/person/Chanelle_Lamothe_as_Slave_Girl>,
+        <http://example.org/person/Charles_Papasoff_as_Blacksmith>,
+        <http://example.org/person/Danielle_Hubbard_as_Dancer>,
+        <http://example.org/person/Darren_Shahlavi_as_Persian_(uncredited)>,
+        <http://example.org/person/Dave_Lapommeray_as_Persian_General_Slaughtered>,
+        <http://example.org/person/David_Francis_as_Ephor_#4>,
+        <http://example.org/person/David_Schaap_as_Potter>,
+        <http://example.org/person/David_Thibodeau_as_Boy_#1_at_Market>,
+        <http://example.org/person/David_Wenham_as_Dilios>,
+        <http://example.org/person/Deke_Richards_as_Spartan_Soldier_(uncredited)>,
+        <http://example.org/person/Dennis_St_John_as_Spartan_Baby_Inspector>,
+        <http://example.org/person/Devin_Delorme_as_Market_boy_#2>,
+        <http://example.org/person/Dominic_West_as_Theron>,
+        <http://example.org/person/Duy_Vo_Van_as_Persian_(uncredited)>,
+        <http://example.org/person/Dylan_Smith_as_Sentry_#1>,
+        <http://example.org/person/Eli_Snyder_as_Leonidas_at_7_/_8_yrs>,
+        <http://example.org/person/Elisabeth_Etienne_as_Dancer>,
+        <http://example.org/person/Frédéric_Smith_as_Statesman>,
+        <http://example.org/person/Gary_A._Hecker_as_Ubermortal_Vocals_(voice)>,
+        <http://example.org/person/Genevieve_Guilbault_as_Slave_Girl>,
+        <http://example.org/person/Gerard_Butler_as_King_Leonidas>,
+        <http://example.org/person/Gina_Gagnon_as_Slave_Girl>,
+        <http://example.org/person/Giovani_Cimmino_as_Pleistarchos>,
+        <http://example.org/person/Greg_Kramer_as_Ephor_#1>,
+        <http://example.org/person/Isabelle_Champeau_as_Mother_at_Market>,
+        <http://example.org/person/Isabelle_Fournel_as_Kissing_Concubine_#2>,
+        <http://example.org/person/James_Bradford_as_Ephor_#5>,
+        <http://example.org/person/Jean_Michel_Paré_as_Other_Council_Guard>,
+        <http://example.org/person/Jere_Gillis_as_Spartan_General>,
+        <http://example.org/person/Jeremy_Thibodeau_as_Spartan_Boy>,
+        <http://example.org/person/John_Dunn-Hill_as_Councilman>,
+        <http://example.org/person/Kelly_Craig_as_Oracle_Girl>,
+        <http://example.org/person/Kwasi_Songui_as_Persian>,
+        <http://example.org/person/Lena_Headey_as_Queen_Gorgo>,
+        <http://example.org/person/Leon_Laderach_as_Executioner>,
+        <http://example.org/person/Loucas_Minchillo_as_Spartan_Baby_A>,
+        <http://example.org/person/Manny_Cortez_Tuazon_as_Transsexual_(Asian)_#1>,
+        <http://example.org/person/Marc_Trottier_as_Spartan_Warrior_(uncredited)>,
+        <http://example.org/person/Marcel_Jeannin_as_Free_Greek-Baker>,
+        <http://example.org/person/Marie-Julie_Rivest_as_Leonidas'_Mother>,
+        <http://example.org/person/Maurizio_Terrazzano_as_Sentry_#2>,
+        <http://example.org/person/Maéva_Nadon_as_Girl_at_Market>,
+        <http://example.org/person/Mercedes_Leggett_as_Slave_Girl>,
+        <http://example.org/person/Michael_Fassbender_as_Stelios>,
+        <http://example.org/person/Michael_Sinelnikoff_as_Elder_councilman>,
+        <http://example.org/person/Neil_Napier_as_Spartan_with_Stick>,
+        <http://example.org/person/Neon_Cobran_as_Litter_Bearer_/_Slave>,
+        <http://example.org/person/Nicholas_Minchillo_as_Spartan_Baby_B>,
+        <http://example.org/person/Patrick_Sabongui_as_Persian_General>,
+        <http://example.org/person/Peter_Mensah_as_Messenger>,
+        <http://example.org/person/Robert_Maillet_as_Uber_Immortal_(Giant)>,
+        <http://example.org/person/Robert_Paradis_as_Spartan_General>,
+        <http://example.org/person/Robin_Wilcock_as_Free_Greek-Sculptor>,
+        <http://example.org/person/Rodrigo_Santoro_as_Xerxes>,
+        <http://example.org/person/Ruan_Vibegaard_as_Dancer>,
+        <http://example.org/person/Sabrina-Jasmine_Guilbault_as_Slave_Girl>,
+        <http://example.org/person/Sandrine_Merette-Attiow_as_Contortionist>,
+        <http://example.org/person/Sara_Giacalone_as_Concubine_#2>,
+        <http://example.org/person/Sebastian_St._Germain_as_Fighting_Boy_(12_yrs_old)>,
+        <http://example.org/person/Stephania_Gambaroff_as_Slave_Girl>,
+        <http://example.org/person/Stephen_McHattie_as_Loyalist>,
+        <http://example.org/person/Stewart_Myiow_as_Persian_General>,
+        <http://example.org/person/Stéphanie_Aubry_as_Slave_Girl>,
+        <http://example.org/person/Tania_Trudell_as_Slave_Girl>,
+        <http://example.org/person/Tim_Connolly_as_Leonidas'_Father>,
+        <http://example.org/person/Tom_Rack_as_Ephor_#3>,
+        <http://example.org/person/Tom_Wisdom_as_Astinos>,
+        <http://example.org/person/Trudi_Hanley_as_Long_Neck_Woman>,
+        <http://example.org/person/Tyler_Neitzel_as_Leonidas_at_15_yrs>,
+        <http://example.org/person/Tyrone_Benskin_as_Persian_Emissary>,
+        <http://example.org/person/Veronique-Natale_Szalankiewicz_as_Daughter_at_Market_(3_/_5_years_old)>,
+        <http://example.org/person/Vervi_Mauricio_as_Armless_Concubine>,
+        <http://example.org/person/Vincent_Regan_as_Captain> ;
+    schema1:description "Based on Frank Miller's graphic novel, \"300\" is very loosely based the 480 B.C. Battle of Thermopylae, where the King of Sparta led his army against the advancing Persians; the battle is said to have inspired all of Greece to band together against the Persians, and helped usher in the world's first democracy." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/War> ;
+    schema1:name "300" ;
+    schema1:producer <http://example.org/producer/Virtual_Studios,_Legendary_Pictures,_Hollywood_Gang_Productions,_Atmosphere_Entertainment_MM,_Warner_Bros.,_Nimar_Studios,_Cruel_and_Unusual_Films> .
+
+<http://example.org/movie/3000_Miles_to_Graceland> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Bokeem_Woodbine_as_Franklin>,
+        <http://example.org/person/Christian_Slater_as_Hanson>,
+        <http://example.org/person/Courteney_Cox_as_Cybil_Waingrow>,
+        <http://example.org/person/David_Arquette_as_Gus>,
+        <http://example.org/person/Howie_Long_as_Jack>,
+        <http://example.org/person/Ice-T_as_Hamilton>,
+        <http://example.org/person/Jon_Lovitz_as_Jay_Peterson>,
+        <http://example.org/person/Kevin_Costner_as_Thomas_J._Murphy>,
+        <http://example.org/person/Kevin_Pollak_as_Damitry>,
+        <http://example.org/person/Kurt_Russell_as_Michael_Zane>,
+        <http://example.org/person/Louis_Lombardi_as_Otto_Sinclair>,
+        <http://example.org/person/Michael_Kopsa_as_Jefferson>,
+        <http://example.org/person/Thomas_Haden_Church_as_Quigley> ;
+    schema1:description "It was an ingenious enough plan: rob the Riviera Casino's count room during an Elvis impersonator convention. But Thomas Murphy decided to keep all the money for himself and shot all his partners, including recently-freed ex-con Michael Zane. With $3.2 million at stake, the Marshals Service closing in, Michael must track down Murphy." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "3000 Miles to Graceland" ;
+    schema1:producer <http://example.org/producer/Franchise_Pictures,_Warner_Bros.,_Morgan_Creek_Productions> .
+
+<http://example.org/movie/300:_Rise_of_an_Empire> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Andrew_Pleavin_as_Daxos>,
+        <http://example.org/person/Andrew_Tiernan_as_Ephialtes>,
+        <http://example.org/person/Ashraf_Barhom_as_General_Bandari>,
+        <http://example.org/person/Atanas_Srebrev_as_Blacksmith>,
+        <http://example.org/person/Ben_Turner_as_General_Artaphernes>,
+        <http://example.org/person/Bo_Roberts_as_Spartan_Warrior_(uncredited)>,
+        <http://example.org/person/Caitlin_Carmichael_as_8_Year_Old_Artemisia>,
+        <http://example.org/person/Callan_Mulvey_as_Scylias>,
+        <http://example.org/person/Christopher_Boyer_as_Senator>,
+        <http://example.org/person/Christopher_Sciueref_as_General_Kashani>,
+        <http://example.org/person/Daniel_Rashev_as_Persian_General>,
+        <http://example.org/person/David_Pevsner_as_Senator>,
+        <http://example.org/person/David_Sterne_as_Old_Statesman>,
+        <http://example.org/person/David_Wenham_as_Dillios>,
+        <http://example.org/person/Dimiter_Martinov_as_Persian_General>,
+        <http://example.org/person/Eva_Green_as_Artemisia>,
+        <http://example.org/person/Farshad_Farahat_as_Persian_Officer>,
+        <http://example.org/person/Fred_Ochs_as_Senator>,
+        <http://example.org/person/George_Georgiou_as_Greek_Citizen>,
+        <http://example.org/person/Gregor_Truter_as_Small_Ambassador>,
+        <http://example.org/person/Gregory_Shelby_as_Spartan_Warrior_(uncredited)>,
+        <http://example.org/person/Hans_Matheson_as_Aesyklos>,
+        <http://example.org/person/Igal_Naor_as_King_Darius>,
+        <http://example.org/person/Jack_O'Connell_as_Calisto>,
+        <http://example.org/person/Jade_Chynoweth_as_13_Year_Old_Artemisia>,
+        <http://example.org/person/John_Michael_Herndon_as_Senator>,
+        <http://example.org/person/Kevin_Fry_as_Lascivious_Greek>,
+        <http://example.org/person/Lena_Headey_as_Queen_Gorgo>,
+        <http://example.org/person/Luke_Roberts_as_Butcher>,
+        <http://example.org/person/Mark_Aaron_Wagner_as_Artemesia's_Father_(uncredited)>,
+        <http://example.org/person/Mark_Killeen_as_Greek_Commander>,
+        <http://example.org/person/Nancy_McCrumb_as_Athenian_Woman_(uncredited)>,
+        <http://example.org/person/Nick_Court_as_Theban_Commander>,
+        <http://example.org/person/Peter_Ferdinando_as_Greek_Ambassador>,
+        <http://example.org/person/Peter_Mensah_as_Persian_Emissary>,
+        <http://example.org/person/Price_Carson_as_Senator>,
+        <http://example.org/person/Rodrigo_Santoro_as_Xerxes>,
+        <http://example.org/person/Stefan_Ivanov_as_Persian_Commander>,
+        <http://example.org/person/Steven_Cree_as_Decapitated_Greek_marine>,
+        <http://example.org/person/Sullivan_Stapleton_as_Themistocles>,
+        <http://example.org/person/Velizar_Peev_as_Spartan_Warrior_(uncredited)>,
+        <http://example.org/person/Vincent_Walsh_as_Naval_Commander> ;
+    schema1:description "Based on Frank Miller's latest graphic novel Xerxes and told in the breathtaking visual style of the blockbuster \"300,\" this new chapter of the epic saga takes the action to a fresh battlefield--on the sea--as Greek general Themistokles attempts to unite all of Greece by leading the charge that will change the course of the war. \"300: Rise of an Empire\" pits Themistokles against the massive invading Persian forces led by mortal-turned-god Xerxes and Artemesia, the vengeful commander of the Persian navy." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/War> ;
+    schema1:name "300: Rise of an Empire" ;
+    schema1:producer <http://example.org/producer/Legendary_Pictures,_Hollywood_Gang_Productions,_Atmosphere_Entertainment_MM,_Warner_Bros.,_Nimar_Studios,_Cruel_and_Unusual_Films> .
+
+<http://example.org/movie/30_Days_of_Night> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aaron_Cortesi_as_Cicero>,
+        <http://example.org/person/Abbey-May_Wakefield_as_Little_Girl_Vampire>,
+        <http://example.org/person/Allan_Smith_as_Khan>,
+        <http://example.org/person/Amber_Sainsbury_as_Denise>,
+        <http://example.org/person/Andrew_Stehlin_as_Arvin>,
+        <http://example.org/person/Ben_Foster_as_The_Stranger>,
+        <http://example.org/person/Ben_Fransham_as_Heron>,
+        <http://example.org/person/Camille_Keenan_as_Kirsten_Toomey>,
+        <http://example.org/person/Chic_Littlewood_as_Isaac_Bulosan>,
+        <http://example.org/person/Craig_Hall_as_Wilson_Bulosan>,
+        <http://example.org/person/Danny_Huston_as_Marlow>,
+        <http://example.org/person/Dayna_Porter_as_Jeannie_Colletta>,
+        <http://example.org/person/Elizabeth_Hawthorne_as_Lucy_Ikos>,
+        <http://example.org/person/Elizabeth_McRae_as_Helen_Munson>,
+        <http://example.org/person/Grant_Tilly_as_Gus_Lambert>,
+        <http://example.org/person/Jack_Walley_as_Peter_Toomey>,
+        <http://example.org/person/Jacob_Tomuri_as_Seth>,
+        <http://example.org/person/Jared_Turner_as_Aaron>,
+        <http://example.org/person/Jarrod_Martin_as_Edgar>,
+        <http://example.org/person/Joe_Dekkers-Reihana_as_Tom_Melanson>,
+        <http://example.org/person/Joel_Tobeck_as_Doug_Hertz>,
+        <http://example.org/person/John_Rawls_as_Zurial>,
+        <http://example.org/person/John_Wraight_as_Adam_Colletta>,
+        <http://example.org/person/Josh_Hartnett_as_Eben_Oleson>,
+        <http://example.org/person/Kate_Butler_as_Michelle_Robbins>,
+        <http://example.org/person/Kate_Elliott_as_Dawn>,
+        <http://example.org/person/Kate_O'Rourke_as_Inika>,
+        <http://example.org/person/Kelson_Henderson_as_Gabe>,
+        <http://example.org/person/Manu_Bennett_as_Billy>,
+        <http://example.org/person/Mark_Boone_Junior_as_Beau_Brower>,
+        <http://example.org/person/Mark_Rendall_as_Jake_Oleson>,
+        <http://example.org/person/Megan_Franich_as_Iris>,
+        <http://example.org/person/Melissa_Billington_as_Kali>,
+        <http://example.org/person/Melissa_George_as_Stella_Oleson>,
+        <http://example.org/person/Min_Windle_as_Ally_Riis>,
+        <http://example.org/person/Nathaniel_Lees_as_Carter_Davies>,
+        <http://example.org/person/Patrick_Kake_as_Frank_Robbins>,
+        <http://example.org/person/Peter_Feeney_as_John_Riis>,
+        <http://example.org/person/Pua_Magasiva_as_Malekai_Hamm>,
+        <http://example.org/person/Rachel_Maitland-Smith_as_Gail_Robbins>,
+        <http://example.org/person/Thomas_Newman_as_Larry_Robbins>,
+        <http://example.org/person/Tim_McLachlan_as_Archibald> ;
+    schema1:description "This is the story of an isolated Alaskan town that is plunged into darkness for a month each year when the sun sinks below the horizon. As the last rays of light fade, the town is attacked by a bloodthirsty gang of vampires bent on an uninterrupted orgy of destruction. Only the small town's husband-and-wife Sheriff team stand between the survivors and certain destruction." ;
+    schema1:genre <http://example.org/genre/Horror>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "30 Days of Night" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures,_Dark_Horse_Entertainment,_Ghost_House_Pictures,_HorrorFlix> .
+
+<http://example.org/movie/30_Minutes_or_Less> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aziz_Ansari_as_Chet>,
+        <http://example.org/person/Bianca_Kajlich_as_Juicy>,
+        <http://example.org/person/Brett_Gelman_as_Pizza_Boss>,
+        <http://example.org/person/Danny_McBride_as_Dwayne>,
+        <http://example.org/person/Dilshad_Vadsaria_as_Kate>,
+        <http://example.org/person/Elizabeth_Wright_Shapiro_as_Chet's_Date>,
+        <http://example.org/person/Fred_Ward_as_The_Major>,
+        <http://example.org/person/Ilyssa_Fradin_as_Mom>,
+        <http://example.org/person/Jesse_Eisenberg_as_Nick>,
+        <http://example.org/person/Lucas_Fleischer_as_Random_Local>,
+        <http://example.org/person/Michael_Peña_as_Chango>,
+        <http://example.org/person/Nick_Swardson_as_Travis>,
+        <http://example.org/person/Rebecca_Cox_as_Sandra>,
+        <http://example.org/person/Rick_Irwin_as_Bank_Manager>,
+        <http://example.org/person/Staci_Lynn_Fletcher_as_Family_Dollar_Cashier> ;
+    schema1:description "Two fledgling criminals kidnap a pizza delivery guy, strap a bomb to his chest, and advise him that he has mere hours to rob a bank or else..." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Comedy> ;
+    schema1:name "30 Minutes or Less" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures> .
+
+<http://example.org/movie/30_Nights_of_Paranormal_Activity_With_the_Devil_Inside_the_Girl_With_the_Dragon_Tattoo> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Arturo_del_Puerto_as_Felipe>,
+        <http://example.org/person/Danny_Woodburn_as_Sluggy_Kornnutz>,
+        <http://example.org/person/Flip_Schultz_as_Aaron_Galen>,
+        <http://example.org/person/French_Stewart_as_Herb>,
+        <http://example.org/person/Heidi_Kramer_as_Annie>,
+        <http://example.org/person/Kathryn_Fiore_as_Dana_Galen>,
+        <http://example.org/person/Olivia_Alexander_as_Liz_Galen>,
+        <http://example.org/person/Peter_Gilroy_as_Taylor>,
+        <http://example.org/person/Rebecca_Ann_Johnson_as_Effie_Trinket>,
+        <http://example.org/person/Ryan_Slater_as_Ryan>,
+        <http://example.org/person/Stephen_Kramer_Glickman_as_Detective>,
+        <http://example.org/person/Tyler_Phillips_as_Evan> ;
+    schema1:description "After a stint in a psychiatric hospital, a young woman returns to the house where her father killed the entire cast of The Artist during his exorcism." ;
+    schema1:genre <http://example.org/genre/Comedy> ;
+    schema1:name "30 Nights of Paranormal Activity With the Devil Inside the Girl With the Dragon Tattoo" ;
+    schema1:producer <http://example.org/producer/Silver_Nitrate_Films,_Silver_Nitrate_Pictures> .
+
+<http://example.org/movie/3:10_to_Yuma> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_Tudyk_as_Doc_Potter>,
+        <http://example.org/person/Arron_Shiver_as_Bill_Moons>,
+        <http://example.org/person/Art_Usher_as_Contention_Gunman_(uncredited)>,
+        <http://example.org/person/Barbara_Bartleson_as_Contention_Woman_(uncredited)>,
+        <http://example.org/person/Ben_Foster_as_Charlie_Prince>,
+        <http://example.org/person/Benjamin_Petry_as_Mark_Evans>,
+        <http://example.org/person/Billy_Lockwood_as_Gunman_(uncredited)>,
+        <http://example.org/person/Brent_Lambert_as_Merchant_(uncredited)>,
+        <http://example.org/person/Brian_Brown_as_Bad_Guy_#1_(uncredited)>,
+        <http://example.org/person/Brian_Duffy_as_Sutherland>,
+        <http://example.org/person/Chad_Brummett_as_Kane>,
+        <http://example.org/person/Chris_Browning_as_Crawley>,
+        <http://example.org/person/Christian_Bale_as_Dan_Evans>,
+        <http://example.org/person/Christopher_Berry_as_Deputy_Sam_Fuller>,
+        <http://example.org/person/Dallas_Roberts_as_Grayson_Butterfield>,
+        <http://example.org/person/Darren_Gibson_as_Gunman_(uncredited)>,
+        <http://example.org/person/David_Oliver_as_Evil_Bartender>,
+        <http://example.org/person/Deryle_J._Lujan_as_Nez>,
+        <http://example.org/person/Forrest_Fyre_as_Walter_Boles>,
+        <http://example.org/person/Girard_Swan_as_Deputy_Harvey_Pell>,
+        <http://example.org/person/Gretchen_Mol_as_Alice_Evans>,
+        <http://example.org/person/Harp_Corrigan_as_Bisbee_Townsman_(uncredited)>,
+        <http://example.org/person/Hugh_Elliot_as_Gunman_(uncredited)>,
+        <http://example.org/person/J._Nathan_Simmons_as_Town_Drunk_(uncredited)>,
+        <http://example.org/person/James_'Scotty'_Augare_as_Nez>,
+        <http://example.org/person/James_Blackburn_as_Gunfighter_(uncredited)>,
+        <http://example.org/person/Jason_Henning_as_Train_Clerk>,
+        <http://example.org/person/Jason_Rodriguez_as_Tighe>,
+        <http://example.org/person/Johnny_Whitworth_as_Tommy_Darden>,
+        <http://example.org/person/KC_King_as_Contention_Gunman_(uncredited)>,
+        <http://example.org/person/Kevin_Durand_as_Tucker>,
+        <http://example.org/person/Lennie_Loftin_as_Glen_Hollander>,
+        <http://example.org/person/Logan_Lerman_as_William_Evans>,
+        <http://example.org/person/Luke_Wilson_as_Zeke>,
+        <http://example.org/person/Melinda_Kramer_as_Bisbee_Townsperson_(uncredited)>,
+        <http://example.org/person/Pat_Ricotti_as_Jorgensen>,
+        <http://example.org/person/Peter_Fonda_as_Byron_McElroy>,
+        <http://example.org/person/Ramon_Frank_as_Kinter>,
+        <http://example.org/person/Rio_Alexander_as_Campos>,
+        <http://example.org/person/Russell_Crowe_as_Ben_Wade>,
+        <http://example.org/person/Sean_Hennigan_as_Marshal_Will_Doane>,
+        <http://example.org/person/Shawn_Howell_as_Jackson>,
+        <http://example.org/person/Trevor_Coppola_as_William_Marsh_(uncredited)>,
+        <http://example.org/person/Vinessa_Shaw_as_Emmy_Nelson> ;
+    schema1:description "In Arizona in the late 1800's, infamous outlaw Ben Wade and his vicious gang of thieves and murderers have plagued the Southern Railroad. When Wade is captured, Civil War veteran Dan Evans, struggling to survive on his drought-plagued ranch, volunteers to deliver him alive to the \"3:10 to Yuma\", a train that will take the killer to trial." ;
+    schema1:genre <http://example.org/genre/Western> ;
+    schema1:name "3:10 to Yuma" ;
+    schema1:producer <http://example.org/producer/Tree_Line_Films,_Lionsgate,_Relativity_Media,_Yuma> .
+
+<http://example.org/movie/3_Backyards> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Dana_Eskelson_as_Debbie>,
+        <http://example.org/person/Danai_Gurira_as_Woman_in_Blue_Dress>,
+        <http://example.org/person/Edie_Falco_as_Peggy>,
+        <http://example.org/person/Elias_Koteas_as_John>,
+        <http://example.org/person/Embeth_Davidtz_as_The_Actress>,
+        <http://example.org/person/Kathryn_Erbe_as_John's_Wife>,
+        <http://example.org/person/Kathy_Searle_as_Ticket_Agent>,
+        <http://example.org/person/Peyton_List_as_Emily>,
+        <http://example.org/person/Rachel_Resheff_as_Christina> ;
+    schema1:description "The story of three people from the same suburban town during the course of one curious autumn day." ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "3 Backyards" ;
+    schema1:producer <http://example.org/producer/Caruso_/_Mendelsohn_Productions> .
+
+<http://example.org/movie/3_Days_to_Kill> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alison_Valence_as_Sumia>,
+        <http://example.org/person/Amber_Heard_as_Vivi_Delay>,
+        <http://example.org/person/Big_John_as_Louis>,
+        <http://example.org/person/Bruno_Ricci_as_Guido>,
+        <http://example.org/person/Connie_Nielsen_as_Christine_Renner>,
+        <http://example.org/person/Eriq_Ebouaney_as_Jules>,
+        <http://example.org/person/Hailee_Steinfeld_as_Zooey_Renner>,
+        <http://example.org/person/Joakhim_Sigue_as_Abbate>,
+        <http://example.org/person/Jonas_Bloquet_as_Hugh>,
+        <http://example.org/person/Kevin_Costner_as_Ethan_Renner>,
+        <http://example.org/person/Marc_Andréoni_as_Mitat_Yilmaz>,
+        <http://example.org/person/Michaël_Vander-Meiren_as_Jacques>,
+        <http://example.org/person/Paolo_Calia_as_JPG_Salesman>,
+        <http://example.org/person/Richard_Sammel_as_The_Wolf>,
+        <http://example.org/person/Tómas_Lemarquis_as_The_Albino>,
+        <http://example.org/person/Xavier_Lemaître_as_Handsome_Banker> ;
+    schema1:description "A dangerous international spy is determined to give up his high stakes life to finally build a closer relationship with his estranged wife and daughter. But first, he must complete one last mission - even if it means juggling the two toughest assignments yet: hunting down the world's most ruthless terrorist and looking after his teenage daughter for the first time in ten years, while his wife is out of town." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Crime>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Thriller> ;
+    schema1:name "3 Days to Kill" ;
+    schema1:producer <http://example.org/producer/Wonderland_Sound_and_Vision,_EuropaCorp,_Relativity_Media,_3DTK,_Feelgood_Entertainment,_Paradise/MGN> .
+
+<http://example.org/movie/3_Ninjas_Kick_Back> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_McRae_as_Samuel_Douglas_Sr.>,
+        <http://example.org/person/Angelo_Tiffe_as_Slam>,
+        <http://example.org/person/Brian_Wagner_as_Gerald>,
+        <http://example.org/person/Caroline_Junko_King_as_Miyo>,
+        <http://example.org/person/Don_Stark_as_Umpire>,
+        <http://example.org/person/Donna_Marie_Recco_as_Hot_Dog_Vendor>,
+        <http://example.org/person/Dustin_Nguyen_as_Glam>,
+        <http://example.org/person/Gino_Dentie_as_Night_Club_Manager>,
+        <http://example.org/person/Glen_Chin_as_Nurse_Shibuya>,
+        <http://example.org/person/Hachiro_Yamauchi_as_Ninja_Master>,
+        <http://example.org/person/Hayabusa_Tenkomori_as_Sumo_Wrestlers>,
+        <http://example.org/person/Hideki_Chiba_as_Ninjas>,
+        <http://example.org/person/J._Evan_Bonifant_as_Michael_'Tum_Tum'_Douglas>,
+        <http://example.org/person/Jason_Schombing_as_Vinnie>,
+        <http://example.org/person/Jeremy_Linson_as_Evan>,
+        <http://example.org/person/Jill_Ito_as_Ticket_Clerk>,
+        <http://example.org/person/Joey_Travolta_as_Mustangs_Coach>,
+        <http://example.org/person/Kasugia_as_Sumo_Wrestlers>,
+        <http://example.org/person/Katsumi_Honda_as_Chauffeur>,
+        <http://example.org/person/Kazuaki_Naruse_as_Young_Koga>,
+        <http://example.org/person/Kazuya_Matsui_as_Ninjas>,
+        <http://example.org/person/Kellye_Nakahara_as_Nurse_Hino>,
+        <http://example.org/person/Kensuke_Goto_as_Ninja_Masters>,
+        <http://example.org/person/Killer_Khan_as_Ishikawa>,
+        <http://example.org/person/Kyogi_Kamui_as_Koga's_Henchmen>,
+        <http://example.org/person/Maital_Sabban_as_Lisa_DiMarino>,
+        <http://example.org/person/Marcus_Giamatti_as_Announcer>,
+        <http://example.org/person/Margarita_Franco_as_Jessica_Shintaro-Douglas>,
+        <http://example.org/person/Masaki_Kiryu_as_Ninjas>,
+        <http://example.org/person/Max_Elliott_Slade_as_Jeffrey_'Colt'_Douglas>,
+        <http://example.org/person/Michael_Paciorek_as_First_Base_Umpire>,
+        <http://example.org/person/Naoki_Fuji_as_Mugger>,
+        <http://example.org/person/Norihito_Yagami_as_Ninjas>,
+        <http://example.org/person/Robert_Miano_as_Shuttle_Driver>,
+        <http://example.org/person/Sab_Shimono_as_Koga>,
+        <http://example.org/person/Scott_Caudill_as_Darren_the_Bully>,
+        <http://example.org/person/Sean_Fox_as_Samuel_'Rocky'_Douglas_Jr.>,
+        <http://example.org/person/Seigen_Nakayama_as_Koga's_Henchmen>,
+        <http://example.org/person/Shiao-Hu_Tso_as_Young_Mori>,
+        <http://example.org/person/Shinoburyû_as_Sumo_Wrestlers>,
+        <http://example.org/person/Shogo_Nakajima_as_Jail_Guard>,
+        <http://example.org/person/Syunichiro_Yunoki_as_Young_Grand_Master>,
+        <http://example.org/person/Takao_Ito_as_Ninja_Masters>,
+        <http://example.org/person/Takeshi_Yamamoto_as_Yakusas>,
+        <http://example.org/person/Tommy_Clark_as_Keith>,
+        <http://example.org/person/Toshiyo_Matsunaga_as_Miyo's_Mother>,
+        <http://example.org/person/Victor_Wong_as_Grandpa_Mori_Shintaro>,
+        <http://example.org/person/Yoshiko_Kamiya_as_Lady_in_Limousine>,
+        <http://example.org/person/Yousyu_Kondo_as_Yakusas>,
+        <http://example.org/person/Ôfuji_as_Sumo_Wrestlers> ;
+    schema1:description "During a championship baseball match, the three brothers hear that their grandfather in Japan is in trouble, and head out to help him, conceding the match. When they arrive in Japan, they must use all their powers to defend him against his ancient enemy, who has returned to exact revenge." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Family> ;
+    schema1:name "3 Ninjas Kick Back" ;
+    schema1:producer <http://example.org/producer/TriStar_Pictures,_Sheen_Productions,_Ben-Ami/Leeds_Productions> .
+
+<http://example.org/movie/3_Strikes> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Antonio_Fargas_as_Uncle_Jim_Douglas>,
+        <http://example.org/person/Brian_Hooks_as_Rob_Douglas>,
+        <http://example.org/person/David_Alan_Grier_as_Detective_Jenkins>,
+        <http://example.org/person/De'Aundre_Bonds_as_J.J._(as_De'Aundre_Bonds)>,
+        <http://example.org/person/Dean_Norris_as_Officer_Roberts>,
+        <http://example.org/person/E-40_as_Mike_(as_E40)>,
+        <http://example.org/person/Faizon_Love_as_Tone>,
+        <http://example.org/person/George_Wallace_as_Pops_Douglas>,
+        <http://example.org/person/Meagan_Good_as_Buela_Douglas>,
+        <http://example.org/person/Mike_Epps_as_Crackhead>,
+        <http://example.org/person/Mo'Nique_as_Dahlia>,
+        <http://example.org/person/N'Bushe_Wright_as_Juanita_Johnson>,
+        <http://example.org/person/Starletta_DuPois_as_Moms_Douglas> ;
+    schema1:description "Brian Hooks plays a character who is just released from jail. And the state adopts a \"3 strikes\" rule for felons that involves serious penalties. Hooks has 2 strikes, and wants to change his life for the better. When a friend picks him up, they are pulled over, and his friend shoots at police officers, and Hooks escapes. Now Hooks, a wanted man, must clear his name of having nothing to do with the shooting." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "3 Strikes" .
+
+<http://example.org/movie/40_Days_and_40_Nights> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adam_Trese_as_John_Sullivan>,
+        <http://example.org/person/Barry_Newman_as_Walter_Sullivan>,
+        <http://example.org/person/Emmanuelle_Vaugier_as_Susie>,
+        <http://example.org/person/Griffin_Dunne_as_Jerry_Anderson>,
+        <http://example.org/person/Josh_Hartnett_as_Matt_Sulivan>,
+        <http://example.org/person/Maggie_Gyllenhaal_as_Sam>,
+        <http://example.org/person/Mary_Gross_as_Bev_Sullivan>,
+        <http://example.org/person/Michael_C._Maronna_as_Bagel_Boy>,
+        <http://example.org/person/Monet_Mazur_as_Candy>,
+        <http://example.org/person/Paulo_Costanzo_as_Ryan>,
+        <http://example.org/person/Shannyn_Sossamon_as_Erica_Sutton>,
+        <http://example.org/person/Vinessa_Shaw_as_Nicole> ;
+    schema1:description "Matt Sullivan's last big relationship ended in disaster and ever since his heart's been aching and his commitment's been lacking. Then came Lent, that time of year when everybody gives something up. That's when Matt decides to go where no man's gone before and make a vow: No sex. Whatsoever. For 40 straight days. At first he has everything under control. That is until the woman of his dreams, Erica, walks into his life." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "40 Days and 40 Nights" ;
+    schema1:producer <http://example.org/producer/Miramax_Films,_Universal_Pictures,_Working_Title_Films> .
+
+<http://example.org/movie/42> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Alan_Tudyk_as_Ben_Chapman>,
+        <http://example.org/person/André_Holland_as_Wendell_Smith>,
+        <http://example.org/person/Brad_Beyer_as_Kirby_Higbe>,
+        <http://example.org/person/Brett_Cullen_as_Clay_Hopper>,
+        <http://example.org/person/Chadwick_Boseman_as_Jackie_Robinson>,
+        <http://example.org/person/Christopher_Meloni_as_Leo_Durocher>,
+        <http://example.org/person/Gino_Anthony_Pesi_as_Joe_Garagiola>,
+        <http://example.org/person/Hamish_Linklater_as_Ralph_Branca>,
+        <http://example.org/person/Harrison_Ford_as_Branch_Rickey>,
+        <http://example.org/person/Henry_G._Sanders_as_Max>,
+        <http://example.org/person/James_Pickens_Jr._as_Mr._Brock>,
+        <http://example.org/person/Jennifer_Cocker_as_Baseball_Fan>,
+        <http://example.org/person/John_C._McGinley_as_Red_Barber>,
+        <http://example.org/person/Jud_Tylor_as_Laraine_Day>,
+        <http://example.org/person/Kelley_Jakle_as_Alice>,
+        <http://example.org/person/Lucas_Black_as_Pee_Wee_Reese>,
+        <http://example.org/person/Max_Gail_as_Burt_Shotton>,
+        <http://example.org/person/Nicole_Beharie_as_Rachel_Isum>,
+        <http://example.org/person/Peter_MacKenzie_as_Happy_Chandler>,
+        <http://example.org/person/Ryan_Merriman_as_Dixie_Walker>,
+        <http://example.org/person/T.R._Knight_as_Harold_Parrott>,
+        <http://example.org/person/Toby_Huss_as_Clyde_Sukeforth> ;
+    schema1:description "The powerful story of Jackie Robinson, the legendary baseball player who broke Major League Baseball’s color barrier when he joined the roster of the Brooklyn Dodgers. The film follows the innovative Dodgers’ general manager Branch Rickey, the MLB executive who first signed Robinson to the minors and then helped to bring him up to the show." ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "42" ;
+    schema1:producer <http://example.org/producer/Warner_Bros.> .
+
+<http://example.org/movie/42nd_Street> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Allen_Jenkins_as_Mac_Elroy>,
+        <http://example.org/person/Bebe_Daniels_as_Dorothy_Brock>,
+        <http://example.org/person/Charles_Lane_as_Playwright_of_Pretty_Lady>,
+        <http://example.org/person/Clarence_Nordstrum_as_Peggy's_groom_in_Shuffle_Off_To_Buffalo_number>,
+        <http://example.org/person/Dick_Powell_as_Billy_Lawler>,
+        <http://example.org/person/Dorothy_Coonan_Wellman_as_Chorus_Girl_(uncredited)>,
+        <http://example.org/person/Edward_Nugent_as_Terry>,
+        <http://example.org/person/George_Brent_as_Pat_Denning>,
+        <http://example.org/person/George_E._Stone_as_Andy_Lee>,
+        <http://example.org/person/George_Irving_as_Hotel_doctor>,
+        <http://example.org/person/Ginger_Rogers_as_Ann>,
+        <http://example.org/person/Guy_Kibbee_as_Abner_Dillon>,
+        <http://example.org/person/Harry_Akst_as_Jerry_the_pianist>,
+        <http://example.org/person/Henry_B._Walthall_as_Stage_actor>,
+        <http://example.org/person/Jack_La_Rue_as_Thug>,
+        <http://example.org/person/Jayne_Shadduck_as_Chorus_Girl_(uncredited)>,
+        <http://example.org/person/Louise_Beavers_as_Pansy>,
+        <http://example.org/person/Lyle_Talbot_as_Geoffrey_Warning_(voice)_(uncredited)>,
+        <http://example.org/person/Ned_Sparks_as_Barry>,
+        <http://example.org/person/Robert_McWade_as_Jones>,
+        <http://example.org/person/Ruby_Keeler_as_Peggy>,
+        <http://example.org/person/Toby_Wing_as_Billy's_partner_in_Young_&_Healthy_number>,
+        <http://example.org/person/Tom_Kennedy_as_Slim_Murphy>,
+        <http://example.org/person/Una_Merkel_as_Lorraine_Fleming>,
+        <http://example.org/person/Wallis_Clark_as_Dr._Chadwick>,
+        <http://example.org/person/Warner_Baxter_as_Julian_Marsh> ;
+    schema1:description "A producer puts on what may be his last Broadway show, and at the last moment a chorus girl has to replace the star." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Music>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "42nd Street" ;
+    schema1:producer <http://example.org/producer/Warner_Bros.> .
+
+<http://example.org/movie/47_Ronin> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Akira_Koieyama_as_Kira's_Spy>,
+        <http://example.org/person/Cary-Hiroyuki_Tagawa_as_Shogun_Tsunayoshi>,
+        <http://example.org/person/Clyde_Kusatsu_as_Drunk_Official>,
+        <http://example.org/person/Haruka_Abe_as_Mika's_Handmaiden>,
+        <http://example.org/person/Hiroshi_Sogabe_as_Hazama>,
+        <http://example.org/person/Hiroshi_Yamada_as_Hara>,
+        <http://example.org/person/Hiroyuki_Sanada_as_Kuranosuke_Ôishi>,
+        <http://example.org/person/Jin_Akanishi_as_Chikara>,
+        <http://example.org/person/Junichi_Kajioka_as_Guard>,
+        <http://example.org/person/Keanu_Reeves_as_Kai>,
+        <http://example.org/person/Kou_Shibasaki_as_Mika>,
+        <http://example.org/person/Masashi_Fujimoto_as_Lead_Soldier>,
+        <http://example.org/person/Masayoshi_Haneda_as_Yasuno>,
+        <http://example.org/person/Min_Tanaka_as_Lord_Asano>,
+        <http://example.org/person/Natsuki_Kunimoto_as_Riku>,
+        <http://example.org/person/Neil_Fingleton_as_Lovecraftian_Samurai>,
+        <http://example.org/person/Rinko_Kikuchi_as_Witch>,
+        <http://example.org/person/Ron_Bottitta_as_Narrator>,
+        <http://example.org/person/Shû_Nakajima_as_Horibe>,
+        <http://example.org/person/Tadanobu_Asano_as_Lord_Kira>,
+        <http://example.org/person/Takato_Yonemoto_as_Basho>,
+        <http://example.org/person/Tanroh_Ishida_as_Shogun's_Adjutant>,
+        <http://example.org/person/Togo_Igawa_as_Tengu_Lord>,
+        <http://example.org/person/Yorick_van_Wageningen_as_Kapitan> ;
+    schema1:description "Based on the original 1941 movie from Japan, and from ancient Japan’s most enduring tale, the epic 3D fantasy-adventure 47 Ronin is born.  Keanu Reeves leads the cast as Kai, an outcast who joins Oishi (Hiroyuki Sanada), the leader of the 47 outcast samurai.  Together they seek vengeance upon the treacherous overlord who killed their master and banished their kind.  To restore honor to their homeland, the warriors embark upon a quest that challenges them with a series of trials that would destroy ordinary warriors." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Adventure>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/Fantasy> ;
+    schema1:name "47 Ronin" ;
+    schema1:producer <http://example.org/producer/Mid_Atlantic_Films,_Stuber_Productions,_Universal,_Moving_Picture_Company_(MPC),_H2F_Entertainment> .
+
+<http://example.org/movie/4_Months,_3_Weeks_and_2_Days> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adi_Carauleanu_as_Dr._Radu>,
+        <http://example.org/person/Adina_Cristescu_as_Mireasa>,
+        <http://example.org/person/Alexandru_Potocean_as_Adi>,
+        <http://example.org/person/Anamaria_Marinca_as_Otilia>,
+        <http://example.org/person/Catalina_Harabagiu_as_Mihaela>,
+        <http://example.org/person/Cerasela_Iosifescu_as_Receptionist_Tineretului>,
+        <http://example.org/person/Constantin_Bojog_as_Marcu>,
+        <http://example.org/person/Doru_Ana_as_Benzanirul>,
+        <http://example.org/person/Eugenia_Bosânceanu_as_Domnu'_Bebe's_mother>,
+        <http://example.org/person/Geo_Dobre_as_Dr._Aldea>,
+        <http://example.org/person/Georgeta_Paduraru_Burdujan_as_Mrs._Aldea>,
+        <http://example.org/person/Ion_Sapdaru_as_Dr._Rusu>,
+        <http://example.org/person/Laura_Vasiliu_as_Gabita>,
+        <http://example.org/person/Liliana_Mocanu_as_Unireal_Hotel_receptionist>,
+        <http://example.org/person/Luminița_Gheorghiu_as_Doamna_Radu>,
+        <http://example.org/person/Marioara_Sterian_as_Adela_Racoviceanu>,
+        <http://example.org/person/Mădălina_Ghițescu_as_Dora>,
+        <http://example.org/person/Sanziana_Tarta_as_Carmen>,
+        <http://example.org/person/Tania_Popa_as_Night_receptionist>,
+        <http://example.org/person/Teodor_Corban_as_Unireal_Hotel_receptionist>,
+        <http://example.org/person/Vlad_Ivanov_as_Domnu'_Bebe> ;
+    schema1:description "Gabita is pregnant, abortion is strictly forbidden in Romania during the communist regime. Despite this it is common practice and Gabita wants an abortion. The movie follows her and her friend Otilia during the day she has made the appointment with Mr. Bebe to have the abortion." ;
+    schema1:genre <http://example.org/genre/Drama> ;
+    schema1:name "4 Months, 3 Weeks and 2 Days" ;
+    schema1:producer <http://example.org/producer/Saga_Film,_Mobra_Films,_Mindshare_Media,_Centrul_National_al_Cinematografiei_(CNC),_McCann-Erickson,_Televiziunea_Romana_(TVR1),_Hubert_Bals_Fund_of_the_Rotterdam_Festival,_The> .
+
+<http://example.org/movie/50/50> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Amitai_Marmorstein_as_Young_Person_on_the_Bus>,
+        <http://example.org/person/Andrea_Brooks_as_Attractive_Woman_#2>,
+        <http://example.org/person/Andrew_Airlie_as_Dr._Ross>,
+        <http://example.org/person/Anjelica_Huston_as_Diane_Lerner>,
+        <http://example.org/person/Anna_Kendrick_as_Katherine_McKay>,
+        <http://example.org/person/Beatrice_King_as_Pretty_Girl>,
+        <http://example.org/person/Brent_Sheppard_as_Minister>,
+        <http://example.org/person/Bryce_Dallas_Howard_as_Rachael>,
+        <http://example.org/person/Cameron_K._Smith_as_Chemo_Patient_(uncredited)>,
+        <http://example.org/person/Chilton_Crane_as_Mother_on_the_Bus>,
+        <http://example.org/person/Christopher_De-Schuster_as_Art_Gallery_Patron>,
+        <http://example.org/person/D.C._Douglas_as_Live_Volcano_Reporter_(voice)>,
+        <http://example.org/person/Daniel_Bacon_as_Dr._Phillips>,
+        <http://example.org/person/Donna_Yamamoto_as_Dr._Walderson>,
+        <http://example.org/person/Jason_Vaisvila_as_Cute_Guy_with_Dreads>,
+        <http://example.org/person/Jessica_Parker_Kennedy_as_Jackie>,
+        <http://example.org/person/Joseph_Gordon-Levitt_as_Adam_Lerner>,
+        <http://example.org/person/Laura_Bertram_as_Claire>,
+        <http://example.org/person/Lauren_Miller_as_Bodie>,
+        <http://example.org/person/Luisa_D'Oliveira_as_Agabelle_Loogenburgen>,
+        <http://example.org/person/Marie_Avgeropoulos_as_Allison>,
+        <http://example.org/person/Matt_Frewer_as_Mitch>,
+        <http://example.org/person/Matty_Finochio_as_Ted>,
+        <http://example.org/person/P._Lynn_Johnson_as_Bernie>,
+        <http://example.org/person/Peter_Kelamis_as_Phil>,
+        <http://example.org/person/Philip_Baker_Hall_as_Alan>,
+        <http://example.org/person/Ryan_W._Smith_as_Joe>,
+        <http://example.org/person/Sarah_Smyth_as_Jenny>,
+        <http://example.org/person/Serge_Houde_as_Richard_Lerner>,
+        <http://example.org/person/Seth_Rogen_as_Kyle_Hirons>,
+        <http://example.org/person/Stephanie_Belding_as_Friendly_Nurse>,
+        <http://example.org/person/Stephen_Colbert_as_Himself_(archive_footage)>,
+        <http://example.org/person/Sugar_Lyn_Beard_as_Susan>,
+        <http://example.org/person/Tom_MacNeill_as_Office_Staff_(uncredited)>,
+        <http://example.org/person/Veena_Sood_as_Nurse_Stewart>,
+        <http://example.org/person/Will_Reiser_as_Greg>,
+        <http://example.org/person/William_'Big_Sleeps'_Stewart_as_George>,
+        <http://example.org/person/Yee_Jee_Tso_as_Dr._Lee> ;
+    schema1:description "Inspired by a true story, a comedy centered on a 27-year-old guy who learns of his cancer diagnosis, and his subsequent struggle to beat the disease." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Drama> ;
+    schema1:name "50/50" ;
+    schema1:producer <http://example.org/producer/Summit_Entertainment,_Mandate_Pictures> .
+
+<http://example.org/movie/50_First_Dates> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Adam_Sandler_as_Henry_Roth>,
+        <http://example.org/person/Albert_Chi_as_Waiter>,
+        <http://example.org/person/Allen_Covert_as_Ten_Second_Tom>,
+        <http://example.org/person/Americus_Abesamis_as_Cafe_Regular>,
+        <http://example.org/person/Amy_Hill_as_Sue>,
+        <http://example.org/person/Anne_Stedman_as_Ex-Girlfriend_(uncredited)>,
+        <http://example.org/person/Anthony_Patricio_as_Hawaiian_Trucker>,
+        <http://example.org/person/Aukuso_Gus_Puluti_Sr._as_Cafe_Regular>,
+        <http://example.org/person/Blake_Clark_as_Marlin_Whitmore>,
+        <http://example.org/person/Brenda_Vivian_as_Salon_Patron>,
+        <http://example.org/person/Brian_L._Keaulana_as_Jet_Skiier>,
+        <http://example.org/person/Chantell_D._Christopher_as_Salon_Patron>,
+        <http://example.org/person/Dan_Aykroyd_as_Dr._Keats>,
+        <http://example.org/person/Darin_Fujimori_as_Fisherman>,
+        <http://example.org/person/Darlena_Roberts_as_Amnesia_Patient>,
+        <http://example.org/person/David_Suapaia_as_Stacy's_Husband>,
+        <http://example.org/person/Denise_Bee_as_Ula's_Wife>,
+        <http://example.org/person/Dom_Magwili_as_Security_Guard>,
+        <http://example.org/person/Drew_Barrymore_as_Lucy_Whitmore>,
+        <http://example.org/person/Esmond_Chung_as_Sheriff>,
+        <http://example.org/person/Glen_Chin_as_Cafe_Regular>,
+        <http://example.org/person/Ishtar_Uhvana_as_Salon_Worker>,
+        <http://example.org/person/J.D._Donaruma_as_Pablo>,
+        <http://example.org/person/Jackie_Sandler_as_Dentist>,
+        <http://example.org/person/Jessica_Bowman_as_Tamy>,
+        <http://example.org/person/Joe_Nakashima_as_Old_Hawaiian_Man>,
+        <http://example.org/person/John_Patrick_Shulak_as_Tourist>,
+        <http://example.org/person/Jonathan_Loughran_as_Jennifer>,
+        <http://example.org/person/Jordan_Kirkwood_as_Bar_Drinker>,
+        <http://example.org/person/Katheryn_Winnick_as_Young_Woman>,
+        <http://example.org/person/Kent_Avenido_as_Cook's_Helper>,
+        <http://example.org/person/Kevin_James_as_Factory_Worker>,
+        <http://example.org/person/Kristin_Bauer_van_Straten_as_Female_Firefighter>,
+        <http://example.org/person/Lin_Yan_as_Coroner>,
+        <http://example.org/person/Lusia_Strus_as_Alexa>,
+        <http://example.org/person/Lynn_Collins_as_Linda>,
+        <http://example.org/person/Mark_Pinkosh_as_Repairman>,
+        <http://example.org/person/Maya_Rudolph_as_Stacy>,
+        <http://example.org/person/Meilinda_Cecilia_Soerjoko_as_Airport_Passenger>,
+        <http://example.org/person/Melissa_Lawner_as_Tan_Friend>,
+        <http://example.org/person/Michael_K._Osborn_as_Sea_Lion_Trainer>,
+        <http://example.org/person/Michelle_Lee_as_Woman>,
+        <http://example.org/person/Missi_Pyle_as_Noreen>,
+        <http://example.org/person/Nectar_Rose_as_Blonde_in_Office>,
+        <http://example.org/person/Nicola_Hersh_as_Woman_in_Car>,
+        <http://example.org/person/Nika_Williams_as_Salon_Patron>,
+        <http://example.org/person/Paul_Edney_as_Seaplane_Pilot>,
+        <http://example.org/person/Peter_Chen_as_Caddy>,
+        <http://example.org/person/Peter_Dante_as_Security_Guard>,
+        <http://example.org/person/Pomaika'i_Brown_as_Nick>,
+        <http://example.org/person/Rob_Schneider_as_Ula>,
+        <http://example.org/person/Sean_Astin_as_Doug_Whitmore>,
+        <http://example.org/person/Sharon_Omi_as_Cafe_Regular>,
+        <http://example.org/person/Virginia_Reece_as_Red_Head>,
+        <http://example.org/person/Wayne_Federman_as_Patient> ;
+    schema1:description "Henry is a player skilled at seducing women. But when this veterinarian meets Lucy, a girl with a quirky problem when it comes to total recall, he realizes it's possible to fall in love all over again…and again, and again. That's because the delightful Lucy has no short-term memory, so Henry must woo her day after day until he finally sweeps her off her feet." ;
+    schema1:genre <http://example.org/genre/Comedy>,
+        <http://example.org/genre/Romance> ;
+    schema1:name "50 First Dates" ;
+    schema1:producer <http://example.org/producer/Columbia_Pictures_Corporation,_Happy_Madison_Productions,_Anonymous_Content,_Flower_Films_(II)> .
+
+<http://example.org/movie/51_Birch_Street> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Carol_Block_as_Herself>,
+        <http://example.org/person/Doug_Block_as_Himself_(narrator)>,
+        <http://example.org/person/Ellen_Block_as_Herself> ;
+    schema1:description "Documentary filmmaker Doug Block had every reason to believe his parents' 54-year marriage was a good one. But when his mother dies unexpectedly and his father swiftly marries his former secretary, he discovers two parents who are far more complex and troubled than he ever imagined. 51 Birch Street is a riveting personal documentary that explores a universal human question: how much about your parents do you really want to know?" ;
+    schema1:genre <http://example.org/genre/Documentary> ;
+    schema1:name "51 Birch Street" ;
+    schema1:producer <http://example.org/producer/Copacetic_Pictures> .
+
+<http://example.org/movie/54> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Aemilia_Robinson_as_Kelly_O'Shea>,
+        <http://example.org/person/Arthur_J._Nascarella_as_IRS_Agent>,
+        <http://example.org/person/Barbara_Radecki_as_TV_Host>,
+        <http://example.org/person/Breckin_Meyer_as_Greg_Randazzo>,
+        <http://example.org/person/Cameron_Mathison_as_Atlanta>,
+        <http://example.org/person/Cindy_Crawford_as_VIP>,
+        <http://example.org/person/Coati_Mundi_as_DJ>,
+        <http://example.org/person/Daniel_Lapaine_as_Marc_the_Doorman>,
+        <http://example.org/person/Donald_Trump_as_VIP>,
+        <http://example.org/person/Ellen_Albertini_Dow_as_Disco_Dottie>,
+        <http://example.org/person/Erika_Alexander_as_Ciel>,
+        <http://example.org/person/Georgina_Grenville_as_VIP>,
+        <http://example.org/person/Heather_Matarazzo_as_Grace_O'Shea>,
+        <http://example.org/person/Heidi_Klum_as_VIP>,
+        <http://example.org/person/Jay_Goede_as_Buck>,
+        <http://example.org/person/John_Hines_as_IRS_Agent>,
+        <http://example.org/person/Lauren_Hutton_as_Liz_Vangelder>,
+        <http://example.org/person/Mark_Ruffalo_as_Ricko>,
+        <http://example.org/person/Michael_Pitt_as_Dance_Student>,
+        <http://example.org/person/Mike_Myers_as_Steve_Rubell>,
+        <http://example.org/person/Neve_Campbell_as_Julie_Black>,
+        <http://example.org/person/Noam_Jenkins_as_Romeo>,
+        <http://example.org/person/Patrick_Taylor_as_Tarzan>,
+        <http://example.org/person/Ryan_Phillippe_as_Shane_O'Shea>,
+        <http://example.org/person/Salma_Hayek_as_Anita_Randazzo>,
+        <http://example.org/person/Sean_Sullivan_as_Andy_Warhol>,
+        <http://example.org/person/Sela_Ward_as_Billie_Auster>,
+        <http://example.org/person/Sherry_Stringfield_as_Viv>,
+        <http://example.org/person/Sheryl_Crow_as_VIP>,
+        <http://example.org/person/Skipp_Sudduth_as_Harlan_O'Shea>,
+        <http://example.org/person/Sophie_Rousseau_as_VIP>,
+        <http://example.org/person/Victor_Browne_as_VIP>,
+        <http://example.org/person/Victor_Sutherland_as_DJ>,
+        <http://example.org/person/Vieslav_Krystyan_as_Photographer> ;
+    schema1:description "Shane, a Jersey boy with big dreams, crosses the river in hopes of finding a more exciting life at Studio 54. When Steve Rubell, the mastermind behind the infamous disco, plucks Shane from the sea of faces clamoring to get inside his club, Shane not only gets his foot in the door, but lands a coveted job behind the bar – and a front-row seat at the most legendary party on the planet." ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/Music> ;
+    schema1:name "54" ;
+    schema1:producer <http://example.org/producer/Redeemable_Features,_FilmColony,_Miramax,_Dollface> .
+
+<http://example.org/movie/55_Days_at_Peking> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Ava_Gardner_as_Baroness_Natalie_Ivanoff>,
+        <http://example.org/person/Burt_Kwouk_as_Old_Man_(voice)>,
+        <http://example.org/person/Charlton_Heston_as_Maj._Matt_Lewis>,
+        <http://example.org/person/David_Niven_as_Sir_Arthur_Robertson>,
+        <http://example.org/person/Elizabeth_Sellars_as_Lady_Sarah_Robertson>,
+        <http://example.org/person/Flora_Robson_as_Dowager_Empress_Tzu-Hsi>,
+        <http://example.org/person/Harry_Andrews_as_Father_de_Bearn>,
+        <http://example.org/person/Jacques_Sernas_as_Maj._Bobrinski>,
+        <http://example.org/person/Jerome_Thor_as_Capt._Andy_Marshall>,
+        <http://example.org/person/John_Ireland_as_Sgt._Harry>,
+        <http://example.org/person/Kurt_Kasznar_as_Baron_Sergei_Ivanoff>,
+        <http://example.org/person/Leo_Genn_as_Gen._Jung-Lu>,
+        <http://example.org/person/Lynne_Sue_Moon_as_Teresa>,
+        <http://example.org/person/Massimo_Serato_as_Garibaldi>,
+        <http://example.org/person/Paul_Lukas_as_Dr._Steinfeldt>,
+        <http://example.org/person/Philippe_Leroy_as_Julliard>,
+        <http://example.org/person/Robert_Helpmann_as_Prince_Tuan> ;
+    schema1:description "Diplomats, soldiers and other representatives of a dozen nations fend off the siege of the International Compound in Peking during the 1900 Boxer Rebellion. The disparate interests unite for survival despite competing factions, overwhelming odds, delayed relief and tacit support of the Boxers by the Empress of China and her generals." ;
+    schema1:genre <http://example.org/genre/Action>,
+        <http://example.org/genre/Drama>,
+        <http://example.org/genre/History> ;
+    schema1:name "55 Days at Peking" ;
+    schema1:producer <http://example.org/producer/Allied_Artists_Pictures,_Samuel_Bronston_Productions> .
+
+<http://example.org/movie/5_Days_of_War> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Andy_García_as_President_of_Georgia>,
+        <http://example.org/person/Anna_Walton_as_Karin_Lange>,
+        <http://example.org/person/Antje_Traue_as_Zoe>,
+        <http://example.org/person/Dean_Cain_as_Chris_Bailot>,
+        <http://example.org/person/Emmanuelle_Chriqui_as_Tatia>,
+        <http://example.org/person/Heather_Graham_as_Miriam>,
+        <http://example.org/person/Johnathon_Schaech_as_Capt._Rezo_Avaliani>,
+        <http://example.org/person/Mikheil_Gomiashvili_as_Anton_Medoevi>,
+        <http://example.org/person/Mikko_Nousiainen_as_Daniil>,
+        <http://example.org/person/Rade_Serbedzija_as_Col._Demidov>,
+        <http://example.org/person/Richard_Coyle_as_Sebastian_Ganz>,
+        <http://example.org/person/Rupert_Friend_as_Thomas_Anders>,
+        <http://example.org/person/Val_Kilmer_as_Dutchman> ;
+    schema1:description "An American journalist and his cameraman are caught in the combat zone during the first Russian airstrikes against Georgia. Rescuing Tatia, a young Georgian schoolteacher separated from her family during the attack, the two reporters agree to help reunite her with her family in exchange for serving as their interpreter. As the three attempt to escape to safety, they witness--and document--the devastation from the full-scale crossfire and cold-blooded murder of innocent civilians." ;
+    schema1:genre <http://example.org/genre/Drama>,
+        <http://example.org/genre/War> ;
+    schema1:name "5 Days of War" ;
+    schema1:producer <http://example.org/producer/Midnight_Sun_Pictures,_Dispictures,_Georgia_International_Films,_Rex_Media> .
+
+<http://example.org/movie/88_Minutes> a schema1:Movie ;
+    schema1:actor <http://example.org/person/Al_Pacino_as_Jack_Gramm>,
+        <http://example.org/person/Alicia_Witt_as_Kim_Cummings>,
+        <http://example.org/person/Amy_Brenneman_as_Shelly_Barnes>,
+        <http://example.org/person/Ben_McKenzie_as_Mike_Stemp>,
+        
