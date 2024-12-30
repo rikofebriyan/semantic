@@ -16,35 +16,33 @@
         <!-- Form pencarian -->
         <div class="search-container">
             <div class="search-form">
-                <h1 class="SearchMovies">Search Movies Versi 1</h1>
+                <h3>Search Movies</h3>
                 <div class="input-group">
+                    <!-- Ikon pada input field -->
                     <span class="input-group-text">
                         <i class="fas fa-search search-icon"></i>
                     </span>
                     <input type="text" class="form-control search-input" placeholder="Search your movies here..."
                         v-model="searchQuery" @keyup.enter="searchMovies" />
                 </div>
+                <!-- Tombol pencarian -->
                 <button class="btn search-btn mt-3" @click="searchMovies">
                     Search <i class="fas fa-search"></i>
                 </button>
             </div>
         </div>
 
-        <!-- Hasil pencarian dengan highlight -->
+        <!-- Tabel hasil pencarian menggunakan Ag-Grid -->
         <div id="results" class="results-container">
             <h3>Search Results</h3>
-            <ul class="movie-list">
-                <li v-for="movie in filteredMovies" :key="movie.id" class="movie-item">
-                    <h2 v-html="highlightText(movie.title)"></h2>
-                    <p><strong>Overview:</strong> <span v-html="highlightText(movie.overview)"></span></p>
-                    <p><strong>Genres:</strong> <span v-html="highlightText(movie.genres)"></span></p>
-                    <p><strong>Producer:</strong> <span v-html="highlightText(movie.producer)"></span></p>
-                    <p><strong>Cast:</strong> <span v-html="highlightText(movie.cast)"></span></p>
-                </li>
-            </ul>
+            <AgGridVue class="ag-theme-alpine" style="width: 100%; height: 80vh;" :columnDefs="columnDefs"
+                :rowData="filteredMovies" :defaultColDef="defaultColDef" :pagination="true" :paginationPageSize="20"
+                :rowHeight="500" />
         </div>
     </div>
 </template>
+
+
 
 <script>
 import axios from "axios";
@@ -55,19 +53,63 @@ export default {
             searchQuery: "",
             movies: [],
             filteredMovies: [],
+            columnDefs: [
+                {
+                    headerName: "Title",
+                    field: "title",
+                    sortable: true,
+                    filter: true,
+                    wrapText: true,
+                    cellRenderer: (params) => this.highlightText(params.value),
+                },
+                {
+                    headerName: "Overview",
+                    field: "overview",
+                    sortable: true,
+                    filter: true,
+                    wrapText: true,
+                    cellRenderer: (params) => this.highlightText(params.value),
+                },
+                {
+                    headerName: "Genres",
+                    field: "genres",
+                    sortable: true,
+                    filter: true,
+                    wrapText: true,
+                    cellRenderer: (params) => this.highlightText(params.value),
+                },
+                {
+                    headerName: "Producer",
+                    field: "producer",
+                    sortable: true,
+                    filter: true,
+                    wrapText: true,
+                },
+                {
+                    headerName: "Cast",
+                    field: "cast",
+                    sortable: true,
+                    filter: true,
+                    wrapText: true,
+                    cellRenderer: (params) => this.highlightText(params.value),
+                },
+            ],
+            defaultColDef: {
+                flex: 1,
+                minWidth: 100,
+                resizable: true,
+            },
         };
     },
     created() {
         this.fetchMovies();
     },
     methods: {
-        async fetchMovies(query = "") {
+        async fetchMovies() {
             try {
-                // Kirimkan query pencarian jika ada
-                const response = await axios.get(`http://localhost:8000/csv?search=${query}`);
+                const response = await axios.get("http://localhost:8000/csv");
                 if (response.data.success) {
-                    this.movies = response.data.data;
-                    this.filteredMovies = this.movies; // Setel data yang difilter awalnya ke semua film
+                    this.movies = Object.values(response.data.data);
                 } else {
                     console.error("Error fetching movies:", response.data.message);
                 }
@@ -77,19 +119,27 @@ export default {
         },
         searchMovies() {
             if (this.searchQuery.trim() !== "") {
-                // Ambil query pencarian
-                this.fetchMovies(this.searchQuery);
+                const query = this.searchQuery.toLowerCase();
+                this.filteredMovies = this.movies.map((movie) => {
+                    const highlightedMovie = { ...movie };
+                    ["title", "overview", "genres", "cast"].forEach((field) => {
+                        if (movie[field]) {
+                            highlightedMovie[field] = this.highlightText(movie[field]);
+                        }
+                    });
+                    return highlightedMovie;
+                });
                 this.scrollToResults();
-            } else {
-                // Jika tidak ada query, ambil semua film
-                this.fetchMovies();
             }
         },
         highlightText(text) {
-            if (!text || !this.searchQuery.trim()) return text;
-            const escapedQuery = this.searchQuery.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&"); // Escape special characters
-            const regex = new RegExp(`(${escapedQuery})`, "gi"); // Create regex to match query
-            return text.replace(regex, '<span class="highlight">$1</span>'); // Replace with highlighted span
+            if (!this.searchQuery) return text;
+            const query = this.searchQuery
+                .split(" ")
+                .filter((word) => word.trim() !== "")
+                .join("|");
+            const regex = new RegExp(`(${query})`, "gi");
+            return text.replace(regex, "<mark>$1</mark>");
         },
         scrollToResults() {
             const resultsSection = document.getElementById("results");
@@ -101,7 +151,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -197,46 +247,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.movie-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.movie-item {
-    background-color: #f9f9f9;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.movie-item h4 {
-    margin: 0 0 10px;
-}
-
-.movie-item p {
-    margin: 5px 0;
-    line-height: 1.5;
-}
-
-.highlight {
-    background-color: yellow;
-    color: black;
-    font-weight: bold;
-}
-
-.results-container h2 {
-    font-size: 2em;
-    font-weight: bold;
-    color: black;
-    margin: 10px 0;
-}
-
-.SearchMovies {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: black;
-    margin: 10px 0;
+.results-container .ag-theme-alpine .ag-cell {
+    line-height: 0.5;
+    padding: 5px;
 }
 </style>

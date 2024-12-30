@@ -19,6 +19,7 @@
         "vue": "^3.4.0"
     },
     "dependencies": {
+        "ag-grid-vue3": "^33.0.3",
         "rdflib": "^2.2.35"
     }
 }

@@ -22,6 +22,14 @@ Route::get('/semantic', function () {
     return Inertia::render('SearchSemantic');
 });
 
+Route::get('/semantic_versi2', function () {
+    return Inertia::render('SearchSemantic2');
+});
+
+Route::get('/pizza', function () {
+    return Inertia::render('pizza');
+});
+
 Route::get('/csv', [CsvController::class, 'convertCsvToJson']);
 Route::get('/csv2', [CsvController::class, 'convertToJson']);
 Route::get('/rdf', [RdfController::class, 'getRdfData']);

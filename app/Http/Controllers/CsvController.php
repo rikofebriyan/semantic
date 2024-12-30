@@ -13,7 +13,7 @@ class CsvController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function convertCsvToJson()
+    public function convertCsvToJson(Request $request)
     {
         // Path file CSV yang ada di server
         $csvFilePath = storage_path('app/csv/movies.csv'); // Sesuaikan dengan lokasi file CSV Anda
@@ -35,10 +35,29 @@ class CsvController extends Controller
             $records = $csv->getRecords();
             $data = iterator_to_array($records);
 
+            // Mendapatkan keyword dari request (jika ada)
+            $keyword = $request->input('search');
+
+            // Jika ada keyword, filter data berdasarkan keyword
+            if ($keyword) {
+                $data = array_filter($data, function ($row) use ($keyword) {
+                    // Menggunakan stripos untuk pencarian yang tidak case-sensitive
+                    foreach ($row as $column) {
+                        if (stripos($column, $keyword) !== false) {
+                            return true;
+                        }
+                    }
+                    return false;
+                });
+            } else {
+                // Jika tidak ada keyword, kembalikan array kosong
+                $data = [];
+            }
+
             // Mengembalikan data CSV dalam format JSON
             return response()->json([
                 'success' => true,
-                'data' => $data
+                'data' => array_values($data) // Menyusun ulang array setelah difilter
             ]);
         } catch (\Exception $e) {
             return response()->json([
@@ -47,6 +66,7 @@ class CsvController extends Controller
             ], 500);
         }
     }
+
 
     public function convertToJson(Request $request)
     {
